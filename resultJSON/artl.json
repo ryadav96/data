@@ -1,0 +1,2567 @@
+{
+  "unit": [
+    {
+      "$": {
+        "id": "INR"
+      },
+      "measure": [
+        "iso4217:INR"
+      ]
+    },
+    {
+      "$": {
+        "id": "pure"
+      },
+      "measure": [
+        "xbrli:pure"
+      ]
+    },
+    {
+      "$": {
+        "id": "INRPerShare"
+      },
+      "divide": [
+        {
+          "unitNumerator": [
+            {
+              "measure": [
+                "iso4217:INR"
+              ]
+            }
+          ],
+          "unitDenominator": [
+            {
+              "measure": [
+                "xbrli:shares"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "Symbol": [
+    {
+      "_": "BHARTIARTL",
+      "$": {
+        "contextRef": "OneD"
+      }
+    }
+  ],
+  "NameOfTheCompany": [
+    {
+      "_": "BHARTI AIRTEL LIMITED",
+      "$": {
+        "contextRef": "OneD"
+      }
+    }
+  ],
+  "DateOfStartOfFinancialYear": [
+    {
+      "_": "2022-04-01",
+      "$": {
+        "contextRef": "OneD"
+      }
+    }
+  ],
+  "DateOfEndOfFinancialYear": [
+    {
+      "_": "2023-03-31",
+      "$": {
+        "contextRef": "OneD"
+      }
+    }
+  ],
+  "DescriptionOfPresentationCurrency": [
+    {
+      "_": "INR",
+      "$": {
+        "contextRef": "OneD"
+      }
+    }
+  ],
+  "LevelOfRoundingUsedInFinancialStatements": [
+    {
+      "_": "Millions",
+      "$": {
+        "contextRef": "OneD"
+      }
+    }
+  ],
+  "ReportingQuarter": [
+    {
+      "_": "Half yearly",
+      "$": {
+        "contextRef": "OneD"
+      }
+    }
+  ],
+  "IsCompanyReportingMultisegmentOrSingleSegment": [
+    {
+      "_": "Single segment",
+      "$": {
+        "contextRef": "OneD"
+      }
+    }
+  ],
+  "DateOfStartOfReportingPeriod": [
+    {
+      "_": "2022-07-01",
+      "$": {
+        "contextRef": "OneD"
+      }
+    },
+    {
+      "_": "2022-04-01",
+      "$": {
+        "contextRef": "FourD"
+      }
+    }
+  ],
+  "DateOfEndOfReportingPeriod": [
+    {
+      "_": "2022-09-30",
+      "$": {
+        "contextRef": "OneD"
+      }
+    },
+    {
+      "_": "2022-09-30",
+      "$": {
+        "contextRef": "FourD"
+      }
+    }
+  ],
+  "WhetherResultsAreAuditedOrUnaudited": [
+    {
+      "_": "Audited",
+      "$": {
+        "contextRef": "OneD"
+      }
+    },
+    {
+      "_": "Audited",
+      "$": {
+        "contextRef": "FourD"
+      }
+    }
+  ],
+  "NatureOfReportStandaloneConsolidated": [
+    {
+      "_": "Standalone",
+      "$": {
+        "contextRef": "OneD"
+      }
+    },
+    {
+      "_": "Standalone",
+      "$": {
+        "contextRef": "FourD"
+      }
+    }
+  ],
+  "RevenueFromOperations": [
+    {
+      "_": "210088000000",
+      "$": {
+        "contextRef": "OneD",
+        "unitRef": "INR",
+        "decimals": "-6"
+      }
+    },
+    {
+      "_": "411962000000",
+      "$": {
+        "contextRef": "FourD",
+        "unitRef": "INR",
+        "decimals": "-6"
+      }
+    }
+  ],
+  "OtherIncome": [
+    {
+      "_": "11482000000",
+      "$": {
+        "contextRef": "OneD",
+        "unitRef": "INR",
+        "decimals": "-6"
+      }
+    },
+    {
+      "_": "22245000000",
+      "$": {
+        "contextRef": "FourD",
+        "unitRef": "INR",
+        "decimals": "-6"
+      }
+    }
+  ],
+  "Income": [
+    {
+      "_": "221570000000",
+      "$": {
+        "contextRef": "OneD",
+        "unitRef": "INR",
+        "decimals": "-6"
+      }
+    },
+    {
+      "_": "434207000000",
+      "$": {
+        "contextRef": "FourD",
+        "unitRef": "INR",
+        "decimals": "-6"
+      }
+    }
+  ],
+  "CostOfMaterialsConsumed": [
+    {
+      "_": "0",
+      "$": {
+        "contextRef": "OneD",
+        "unitRef": "INR",
+        "decimals": "-6"
+      }
+    },
+    {
+      "_": "0",
+      "$": {
+        "contextRef": "FourD",
+        "unitRef": "INR",
+        "decimals": "-6"
+      }
+    }
+  ],
+  "PurchasesOfStockInTrade": [
+    {
+      "_": "0",
+      "$": {
+        "contextRef": "OneD",
+        "unitRef": "INR",
+        "decimals": "-6"
+      }
+    },
+    {
+      "_": "0",
+      "$": {
+        "contextRef": "FourD",
+        "unitRef": "INR",
+        "decimals": "-6"
+      }
+    }
+  ],
+  "ChangesInInventoriesOfFinishedGoodsWorkInProgressAndStockInTrade": [
+    {
+      "_": "0",
+      "$": {
+        "contextRef": "OneD",
+        "unitRef": "INR",
+        "decimals": "-6"
+      }
+    },
+    {
+      "_": "0",
+      "$": {
+        "contextRef": "FourD",
+        "unitRef": "INR",
+        "decimals": "-6"
+      }
+    }
+  ],
+  "EmployeeBenefitExpense": [
+    {
+      "_": "4529000000",
+      "$": {
+        "contextRef": "OneD",
+        "unitRef": "INR",
+        "decimals": "-6"
+      }
+    },
+    {
+      "_": "8748000000",
+      "$": {
+        "contextRef": "FourD",
+        "unitRef": "INR",
+        "decimals": "-6"
+      }
+    }
+  ],
+  "FinanceCosts": [
+    {
+      "_": "42079000000",
+      "$": {
+        "contextRef": "OneD",
+        "unitRef": "INR",
+        "decimals": "-6"
+      }
+    },
+    {
+      "_": "83996000000",
+      "$": {
+        "contextRef": "FourD",
+        "unitRef": "INR",
+        "decimals": "-6"
+      }
+    }
+  ],
+  "DepreciationDepletionAndAmortisationExpense": [
+    {
+      "_": "65717000000",
+      "$": {
+        "contextRef": "OneD",
+        "unitRef": "INR",
+        "decimals": "-6"
+      }
+    },
+    {
+      "_": "131120000000",
+      "$": {
+        "contextRef": "FourD",
+        "unitRef": "INR",
+        "decimals": "-6"
+      }
+    }
+  ],
+  "OtherExpenses": [
+    {
+      "_": "96396000000",
+      "$": {
+        "contextRef": "OneD",
+        "unitRef": "INR",
+        "decimals": "-6"
+      }
+    },
+    {
+      "_": "192083000000",
+      "$": {
+        "contextRef": "FourD",
+        "unitRef": "INR",
+        "decimals": "-6"
+      }
+    },
+    {
+      "_": "45621000000",
+      "$": {
+        "contextRef": "OneExpenses1D",
+        "unitRef": "INR",
+        "decimals": "-6"
+      }
+    },
+    {
+      "_": "10179000000",
+      "$": {
+        "contextRef": "OneExpenses2D",
+        "unitRef": "INR",
+        "decimals": "-6"
+      }
+    },
+    {
+      "_": "22499000000",
+      "$": {
+        "contextRef": "OneExpenses3D",
+        "unitRef": "INR",
+        "decimals": "-6"
+      }
+    },
+    {
+      "_": "11691000000",
+      "$": {
+        "contextRef": "OneExpenses4D",
+        "unitRef": "INR",
+        "decimals": "-6"
+      }
+    },
+    {
+      "_": "6406000000",
+      "$": {
+        "contextRef": "OneExpenses5D",
+        "unitRef": "INR",
+        "decimals": "-6"
+      }
+    },
+    {
+      "_": "90540000000",
+      "$": {
+        "contextRef": "FourExpenses1D",
+        "unitRef": "INR",
+        "decimals": "-6"
+      }
+    },
+    {
+      "_": "19781000000",
+      "$": {
+        "contextRef": "FourExpenses2D",
+        "unitRef": "INR",
+        "decimals": "-6"
+      }
+    },
+    {
+      "_": "46996000000",
+      "$": {
+        "contextRef": "FourExpenses3D",
+        "unitRef": "INR",
+        "decimals": "-6"
+      }
+    },
+    {
+      "_": "21171000000",
+      "$": {
+        "contextRef": "FourExpenses4D",
+        "unitRef": "INR",
+        "decimals": "-6"
+      }
+    },
+    {
+      "_": "13595000000",
+      "$": {
+        "contextRef": "FourExpenses5D",
+        "unitRef": "INR",
+        "decimals": "-6"
+      }
+    }
+  ],
+  "Expenses": [
+    {
+      "_": "208721000000",
+      "$": {
+        "contextRef": "OneD",
+        "unitRef": "INR",
+        "decimals": "-6"
+      }
+    },
+    {
+      "_": "415947000000",
+      "$": {
+        "contextRef": "FourD",
+        "unitRef": "INR",
+        "decimals": "-6"
+      }
+    }
+  ],
+  "ProfitBeforeExceptionalItemsAndTax": [
+    {
+      "_": "12849000000",
+      "$": {
+        "contextRef": "OneD",
+        "unitRef": "INR",
+        "decimals": "-6"
+      }
+    },
+    {
+      "_": "18260000000",
+      "$": {
+        "contextRef": "FourD",
+        "unitRef": "INR",
+        "decimals": "-6"
+      }
+    }
+  ],
+  "ExceptionalItemsBeforeTax": [
+    {
+      "_": "0",
+      "$": {
+        "contextRef": "OneD",
+        "unitRef": "INR",
+        "decimals": "-6"
+      }
+    },
+    {
+      "_": "0",
+      "$": {
+        "contextRef": "FourD",
+        "unitRef": "INR",
+        "decimals": "-6"
+      }
+    }
+  ],
+  "ProfitBeforeTax": [
+    {
+      "_": "12849000000",
+      "$": {
+        "contextRef": "OneD",
+        "unitRef": "INR",
+        "decimals": "-6"
+      }
+    },
+    {
+      "_": "18260000000",
+      "$": {
+        "contextRef": "FourD",
+        "unitRef": "INR",
+        "decimals": "-6"
+      }
+    }
+  ],
+  "CurrentTax": [
+    {
+      "_": "0",
+      "$": {
+        "contextRef": "OneD",
+        "unitRef": "INR",
+        "decimals": "-6"
+      }
+    },
+    {
+      "_": "-178000000",
+      "$": {
+        "contextRef": "FourD",
+        "unitRef": "INR",
+        "decimals": "-6"
+      }
+    }
+  ],
+  "DeferredTax": [
+    {
+      "_": "3360000000",
+      "$": {
+        "contextRef": "OneD",
+        "unitRef": "INR",
+        "decimals": "-6"
+      }
+    },
+    {
+      "_": "4884000000",
+      "$": {
+        "contextRef": "FourD",
+        "unitRef": "INR",
+        "decimals": "-6"
+      }
+    }
+  ],
+  "TaxExpense": [
+    {
+      "_": "3360000000",
+      "$": {
+        "contextRef": "OneD",
+        "unitRef": "INR",
+        "decimals": "-6"
+      }
+    },
+    {
+      "_": "4706000000",
+      "$": {
+        "contextRef": "FourD",
+        "unitRef": "INR",
+        "decimals": "-6"
+      }
+    }
+  ],
+  "NetMovementInRegulatoryDeferralAccountBalancesRelatedToProfitOrLossAndTheRelatedDeferredTaxMovement": [
+    {
+      "_": "0",
+      "$": {
+        "contextRef": "OneD",
+        "unitRef": "INR",
+        "decimals": "-6"
+      }
+    },
+    {
+      "_": "0",
+      "$": {
+        "contextRef": "FourD",
+        "unitRef": "INR",
+        "decimals": "-6"
+      }
+    }
+  ],
+  "ProfitLossForPeriodFromContinuingOperations": [
+    {
+      "_": "9489000000",
+      "$": {
+        "contextRef": "OneD",
+        "unitRef": "INR",
+        "decimals": "-6"
+      }
+    },
+    {
+      "_": "13554000000",
+      "$": {
+        "contextRef": "FourD",
+        "unitRef": "INR",
+        "decimals": "-6"
+      }
+    }
+  ],
+  "ProfitLossFromDiscontinuedOperationsBeforeTax": [
+    {
+      "_": "0",
+      "$": {
+        "contextRef": "OneD",
+        "unitRef": "INR",
+        "decimals": "-6"
+      }
+    },
+    {
+      "_": "0",
+      "$": {
+        "contextRef": "FourD",
+        "unitRef": "INR",
+        "decimals": "-6"
+      }
+    }
+  ],
+  "TaxExpenseOfDiscontinuedOperations": [
+    {
+      "_": "0",
+      "$": {
+        "contextRef": "OneD",
+        "unitRef": "INR",
+        "decimals": "-6"
+      }
+    },
+    {
+      "_": "0",
+      "$": {
+        "contextRef": "FourD",
+        "unitRef": "INR",
+        "decimals": "-6"
+      }
+    }
+  ],
+  "ProfitLossFromDiscontinuedOperationsAfterTax": [
+    {
+      "_": "0",
+      "$": {
+        "contextRef": "OneD",
+        "unitRef": "INR",
+        "decimals": "-6"
+      }
+    },
+    {
+      "_": "0",
+      "$": {
+        "contextRef": "FourD",
+        "unitRef": "INR",
+        "decimals": "-6"
+      }
+    }
+  ],
+  "ShareOfProfitLossOfAssociatesAndJointVenturesAccountedForUsingEquityMethod": [
+    {
+      "_": "0",
+      "$": {
+        "contextRef": "OneD",
+        "unitRef": "INR",
+        "decimals": "-6"
+      }
+    },
+    {
+      "_": "0",
+      "$": {
+        "contextRef": "FourD",
+        "unitRef": "INR",
+        "decimals": "-6"
+      }
+    }
+  ],
+  "ProfitLossForPeriod": [
+    {
+      "_": "9489000000",
+      "$": {
+        "contextRef": "OneD",
+        "unitRef": "INR",
+        "decimals": "-6"
+      }
+    },
+    {
+      "_": "13554000000",
+      "$": {
+        "contextRef": "FourD",
+        "unitRef": "INR",
+        "decimals": "-6"
+      }
+    }
+  ],
+  "OtherComprehensiveIncomeNetOfTaxes": [
+    {
+      "_": "-7000000",
+      "$": {
+        "contextRef": "OneD",
+        "unitRef": "INR",
+        "decimals": "-6"
+      }
+    },
+    {
+      "_": "-100000000",
+      "$": {
+        "contextRef": "FourD",
+        "unitRef": "INR",
+        "decimals": "-6"
+      }
+    }
+  ],
+  "ComprehensiveIncomeForThePeriod": [
+    {
+      "_": "9482000000",
+      "$": {
+        "contextRef": "OneD",
+        "unitRef": "INR",
+        "decimals": "-6"
+      }
+    },
+    {
+      "_": "13454000000",
+      "$": {
+        "contextRef": "FourD",
+        "unitRef": "INR",
+        "decimals": "-6"
+      }
+    }
+  ],
+  "ComprehensiveIncomeForThePeriodAttributableToOwnersOfParent": [
+    {
+      "_": "0",
+      "$": {
+        "contextRef": "OneD",
+        "unitRef": "INR",
+        "decimals": "-6"
+      }
+    },
+    {
+      "_": "0",
+      "$": {
+        "contextRef": "FourD",
+        "unitRef": "INR",
+        "decimals": "-6"
+      }
+    }
+  ],
+  "ComprehensiveIncomeForThePeriodAttributableToOwnersOfParentNonControllingInterests": [
+    {
+      "_": "0",
+      "$": {
+        "contextRef": "OneD",
+        "unitRef": "INR",
+        "decimals": "-6"
+      }
+    },
+    {
+      "_": "0",
+      "$": {
+        "contextRef": "FourD",
+        "unitRef": "INR",
+        "decimals": "-6"
+      }
+    }
+  ],
+  "PaidUpValueOfEquityShareCapital": [
+    {
+      "_": "28306000000",
+      "$": {
+        "contextRef": "OneD",
+        "unitRef": "INR",
+        "decimals": "-6"
+      }
+    },
+    {
+      "_": "28306000000",
+      "$": {
+        "contextRef": "FourD",
+        "unitRef": "INR",
+        "decimals": "-6"
+      }
+    }
+  ],
+  "FaceValueOfEquityShareCapital": [
+    {
+      "_": "5",
+      "$": {
+        "contextRef": "OneD",
+        "unitRef": "INRPerShare",
+        "decimals": "INF"
+      }
+    },
+    {
+      "_": "5",
+      "$": {
+        "contextRef": "FourD",
+        "unitRef": "INRPerShare",
+        "decimals": "INF"
+      }
+    }
+  ],
+  "BasicEarningsLossPerShareFromContinuingOperations": [
+    {
+      "_": "1.68",
+      "$": {
+        "contextRef": "OneD",
+        "unitRef": "INRPerShare",
+        "decimals": "INF"
+      }
+    },
+    {
+      "_": "2.41",
+      "$": {
+        "contextRef": "FourD",
+        "unitRef": "INRPerShare",
+        "decimals": "INF"
+      }
+    }
+  ],
+  "DilutedEarningsLossPerShareFromContinuingOperations": [
+    {
+      "_": "1.66",
+      "$": {
+        "contextRef": "OneD",
+        "unitRef": "INRPerShare",
+        "decimals": "INF"
+      }
+    },
+    {
+      "_": "2.38",
+      "$": {
+        "contextRef": "FourD",
+        "unitRef": "INRPerShare",
+        "decimals": "INF"
+      }
+    }
+  ],
+  "BasicEarningsLossPerShareFromDiscontinuedOperations": [
+    {
+      "_": "0",
+      "$": {
+        "contextRef": "OneD",
+        "unitRef": "INRPerShare",
+        "decimals": "INF"
+      }
+    },
+    {
+      "_": "0",
+      "$": {
+        "contextRef": "FourD",
+        "unitRef": "INRPerShare",
+        "decimals": "INF"
+      }
+    }
+  ],
+  "DilutedEarningsLossPerShareFromDiscontinuedOperations": [
+    {
+      "_": "0",
+      "$": {
+        "contextRef": "OneD",
+        "unitRef": "INRPerShare",
+        "decimals": "INF"
+      }
+    },
+    {
+      "_": "0",
+      "$": {
+        "contextRef": "FourD",
+        "unitRef": "INRPerShare",
+        "decimals": "INF"
+      }
+    }
+  ],
+  "BasicEarningsLossPerShareFromContinuingAndDiscontinuedOperations": [
+    {
+      "_": "1.68",
+      "$": {
+        "contextRef": "OneD",
+        "unitRef": "INRPerShare",
+        "decimals": "INF"
+      }
+    },
+    {
+      "_": "2.41",
+      "$": {
+        "contextRef": "FourD",
+        "unitRef": "INRPerShare",
+        "decimals": "INF"
+      }
+    }
+  ],
+  "DilutedEarningsLossPerShareFromContinuingAndDiscontinuedOperations": [
+    {
+      "_": "1.66",
+      "$": {
+        "contextRef": "OneD",
+        "unitRef": "INRPerShare",
+        "decimals": "INF"
+      }
+    },
+    {
+      "_": "2.38",
+      "$": {
+        "contextRef": "FourD",
+        "unitRef": "INRPerShare",
+        "decimals": "INF"
+      }
+    }
+  ],
+  "DebtEquityRatio": [
+    {
+      "_": "0.0163",
+      "$": {
+        "contextRef": "OneD",
+        "unitRef": "pure",
+        "decimals": "INF"
+      }
+    },
+    {
+      "_": "0.0163",
+      "$": {
+        "contextRef": "FourD",
+        "unitRef": "pure",
+        "decimals": "INF"
+      }
+    }
+  ],
+  "DebtServiceCoverageRatio": [
+    {
+      "_": "0.0299",
+      "$": {
+        "contextRef": "OneD",
+        "unitRef": "pure",
+        "decimals": "INF"
+      }
+    },
+    {
+      "_": "0.0282",
+      "$": {
+        "contextRef": "FourD",
+        "unitRef": "pure",
+        "decimals": "INF"
+      }
+    }
+  ],
+  "InterestServiceCoverageRatio": [
+    {
+      "_": "0.0419",
+      "$": {
+        "contextRef": "OneD",
+        "unitRef": "pure",
+        "decimals": "INF"
+      }
+    },
+    {
+      "_": "0.0412",
+      "$": {
+        "contextRef": "FourD",
+        "unitRef": "pure",
+        "decimals": "INF"
+      }
+    }
+  ],
+  "DisclosureOfNotesOnFinancialResultsExplanatoryTextBlock": [
+    {
+      "_": "Since the format of Cash Flow Statement in XBRL results utility differs from the signed quick results submitted by the Company with Stock Exchanges on October 31, 2022, the reporting of figures in the Cash Flow Statement has been made in line with the quick financial results. Therefore, following re-classification has been made: <BR> \r\n <BR> \r\n1. Adjustments for provisions, current” to be read as “Adjustments for provisions, current & non-current” <BR> \r\n2. Adjustments for other financial liabilities, current” to be read as “Adjustments for other financial & non-financial liabilities, current & non-current”  <BR> \r\n3. Adjustments for other financial assets, current” to be read as “Adjustments for other financial & non-financial assets, current & non-current. <BR> \r\n",
+      "$": {
+        "contextRef": "OneD"
+      }
+    }
+  ],
+  "DescriptionOfOtherExpenses": [
+    {
+      "_": "Network operating expenses",
+      "$": {
+        "contextRef": "OneExpenses1D"
+      }
+    },
+    {
+      "_": "Access charges",
+      "$": {
+        "contextRef": "OneExpenses2D"
+      }
+    },
+    {
+      "_": "License fee / Spectrum charges",
+      "$": {
+        "contextRef": "OneExpenses3D"
+      }
+    },
+    {
+      "_": "Sales and marketing expenses",
+      "$": {
+        "contextRef": "OneExpenses4D"
+      }
+    },
+    {
+      "_": "Other expenses",
+      "$": {
+        "contextRef": "OneExpenses5D"
+      }
+    },
+    {
+      "_": "Network operating expenses",
+      "$": {
+        "contextRef": "FourExpenses1D"
+      }
+    },
+    {
+      "_": "Access charges",
+      "$": {
+        "contextRef": "FourExpenses2D"
+      }
+    },
+    {
+      "_": "License fee / Spectrum charges",
+      "$": {
+        "contextRef": "FourExpenses3D"
+      }
+    },
+    {
+      "_": "Sales and marketing expenses",
+      "$": {
+        "contextRef": "FourExpenses4D"
+      }
+    },
+    {
+      "_": "Other expenses",
+      "$": {
+        "contextRef": "FourExpenses5D"
+      }
+    }
+  ],
+  "PropertyPlantAndEquipment": [
+    {
+      "_": "1027581000000",
+      "$": {
+        "contextRef": "OneI",
+        "unitRef": "INR",
+        "decimals": "-6"
+      }
+    }
+  ],
+  "CapitalWorkInProgress": [
+    {
+      "_": "25458000000",
+      "$": {
+        "contextRef": "OneI",
+        "unitRef": "INR",
+        "decimals": "-6"
+      }
+    }
+  ],
+  "InvestmentProperty": [
+    {
+      "_": "0",
+      "$": {
+        "contextRef": "OneI",
+        "unitRef": "INR",
+        "decimals": "-6"
+      }
+    }
+  ],
+  "Goodwill": [
+    {
+      "_": "739000000",
+      "$": {
+        "contextRef": "OneI",
+        "unitRef": "INR",
+        "decimals": "-6"
+      }
+    }
+  ],
+  "OtherIntangibleAssets": [
+    {
+      "_": "803849000000",
+      "$": {
+        "contextRef": "OneI",
+        "unitRef": "INR",
+        "decimals": "-6"
+      }
+    }
+  ],
+  "IntangibleAssetsUnderDevelopment": [
+    {
+      "_": "378652000000",
+      "$": {
+        "contextRef": "OneI",
+        "unitRef": "INR",
+        "decimals": "-6"
+      }
+    }
+  ],
+  "BiologicalAssetsOtherThanBearerPlants": [
+    {
+      "_": "0",
+      "$": {
+        "contextRef": "OneI",
+        "unitRef": "INR",
+        "decimals": "-6"
+      }
+    }
+  ],
+  "InvestmentsAccountedForUsingEquityMethod": [
+    {
+      "_": "341288000000",
+      "$": {
+        "contextRef": "OneI",
+        "unitRef": "INR",
+        "decimals": "-6"
+      }
+    }
+  ],
+  "NoncurrentInvestments": [
+    {
+      "_": "150339000000",
+      "$": {
+        "contextRef": "OneI",
+        "unitRef": "INR",
+        "decimals": "-6"
+      }
+    }
+  ],
+  "TradeReceivablesNoncurrent": [
+    {
+      "_": "0",
+      "$": {
+        "contextRef": "OneI",
+        "unitRef": "INR",
+        "decimals": "-6"
+      }
+    }
+  ],
+  "LoansNoncurrent": [
+    {
+      "_": "0",
+      "$": {
+        "contextRef": "OneI",
+        "unitRef": "INR",
+        "decimals": "-6"
+      }
+    }
+  ],
+  "OtherNoncurrentFinancialAssets": [
+    {
+      "_": "16978000000",
+      "$": {
+        "contextRef": "OneI",
+        "unitRef": "INR",
+        "decimals": "-6"
+      }
+    }
+  ],
+  "NoncurrentFinancialAssets": [
+    {
+      "_": "167317000000",
+      "$": {
+        "contextRef": "OneI",
+        "unitRef": "INR",
+        "decimals": "-6"
+      }
+    }
+  ],
+  "DeferredTaxAssetsNet": [
+    {
+      "_": "159636000000",
+      "$": {
+        "contextRef": "OneI",
+        "unitRef": "INR",
+        "decimals": "-6"
+      }
+    }
+  ],
+  "OtherNoncurrentAssets": [
+    {
+      "_": "74374000000",
+      "$": {
+        "contextRef": "OneI",
+        "unitRef": "INR",
+        "decimals": "-6"
+      }
+    }
+  ],
+  "NoncurrentAssets": [
+    {
+      "_": "2978894000000",
+      "$": {
+        "contextRef": "OneI",
+        "unitRef": "INR",
+        "decimals": "-6"
+      }
+    }
+  ],
+  "Inventories": [
+    {
+      "_": "5000000",
+      "$": {
+        "contextRef": "OneI",
+        "unitRef": "INR",
+        "decimals": "-6"
+      }
+    }
+  ],
+  "CurrentInvestments": [
+    {
+      "_": "9113000000",
+      "$": {
+        "contextRef": "OneI",
+        "unitRef": "INR",
+        "decimals": "-6"
+      }
+    }
+  ],
+  "TradeReceivablesCurrent": [
+    {
+      "_": "32971000000",
+      "$": {
+        "contextRef": "OneI",
+        "unitRef": "INR",
+        "decimals": "-6"
+      }
+    }
+  ],
+  "CashAndCashEquivalents": [
+    {
+      "_": "4419000000",
+      "$": {
+        "contextRef": "OneI",
+        "unitRef": "INR",
+        "decimals": "-6"
+      }
+    }
+  ],
+  "BankBalanceOtherThanCashAndCashEquivalents": [
+    {
+      "_": "477000000",
+      "$": {
+        "contextRef": "OneI",
+        "unitRef": "INR",
+        "decimals": "-6"
+      }
+    }
+  ],
+  "LoansCurrent": [
+    {
+      "_": "95345000000",
+      "$": {
+        "contextRef": "OneI",
+        "unitRef": "INR",
+        "decimals": "-6"
+      }
+    }
+  ],
+  "OtherCurrentFinancialAssets": [
+    {
+      "_": "225018000000",
+      "$": {
+        "contextRef": "OneI",
+        "unitRef": "INR",
+        "decimals": "-6"
+      }
+    }
+  ],
+  "CurrentFinancialAssets": [
+    {
+      "_": "367343000000",
+      "$": {
+        "contextRef": "OneI",
+        "unitRef": "INR",
+        "decimals": "-6"
+      }
+    }
+  ],
+  "CurrentTaxAssets": [
+    {
+      "_": "0",
+      "$": {
+        "contextRef": "OneI",
+        "unitRef": "INR",
+        "decimals": "-6"
+      }
+    }
+  ],
+  "OtherCurrentAssets": [
+    {
+      "_": "81359000000",
+      "$": {
+        "contextRef": "OneI",
+        "unitRef": "INR",
+        "decimals": "-6"
+      }
+    }
+  ],
+  "CurrentAssets": [
+    {
+      "_": "448707000000",
+      "$": {
+        "contextRef": "OneI",
+        "unitRef": "INR",
+        "decimals": "-6"
+      }
+    }
+  ],
+  "NoncurrentAssetsClassifiedAsHeldForSale": [
+    {
+      "_": "0",
+      "$": {
+        "contextRef": "OneI",
+        "unitRef": "INR",
+        "decimals": "-6"
+      }
+    }
+  ],
+  "RegulatoryDeferralAccountDebitBalancesAndRelatedDeferredTaxAssets": [
+    {
+      "_": "0",
+      "$": {
+        "contextRef": "OneI",
+        "unitRef": "INR",
+        "decimals": "-6"
+      }
+    }
+  ],
+  "Assets": [
+    {
+      "_": "3427601000000",
+      "$": {
+        "contextRef": "OneI",
+        "unitRef": "INR",
+        "decimals": "-6"
+      }
+    }
+  ],
+  "EquityShareCapital": [
+    {
+      "_": "28306000000",
+      "$": {
+        "contextRef": "OneI",
+        "unitRef": "INR",
+        "decimals": "-6"
+      }
+    }
+  ],
+  "OtherEquity": [
+    {
+      "_": "810014000000",
+      "$": {
+        "contextRef": "OneI",
+        "unitRef": "INR",
+        "decimals": "-6"
+      }
+    }
+  ],
+  "EquityAttributableToOwnersOfParent": [
+    {
+      "_": "838320000000",
+      "$": {
+        "contextRef": "OneI",
+        "unitRef": "INR",
+        "decimals": "-6"
+      }
+    }
+  ],
+  "Equity": [
+    {
+      "_": "838320000000",
+      "$": {
+        "contextRef": "OneI",
+        "unitRef": "INR",
+        "decimals": "-6"
+      }
+    }
+  ],
+  "BorrowingsNoncurrent": [
+    {
+      "_": "1331499000000",
+      "$": {
+        "contextRef": "OneI",
+        "unitRef": "INR",
+        "decimals": "-6"
+      }
+    }
+  ],
+  "TradePayablesNoncurrent": [
+    {
+      "_": "0",
+      "$": {
+        "contextRef": "OneI",
+        "unitRef": "INR",
+        "decimals": "-6"
+      }
+    }
+  ],
+  "OtherNoncurrentFinancialLiabilities": [
+    {
+      "_": "492237000000",
+      "$": {
+        "contextRef": "OneI",
+        "unitRef": "INR",
+        "decimals": "-6"
+      }
+    }
+  ],
+  "NoncurrentFinancialLiabilities": [
+    {
+      "_": "1823736000000",
+      "$": {
+        "contextRef": "OneI",
+        "unitRef": "INR",
+        "decimals": "-6"
+      }
+    }
+  ],
+  "ProvisionsNoncurrent": [
+    {
+      "_": "1701000000",
+      "$": {
+        "contextRef": "OneI",
+        "unitRef": "INR",
+        "decimals": "-6"
+      }
+    }
+  ],
+  "DeferredTaxLiabilitiesNet": [
+    {
+      "_": "0",
+      "$": {
+        "contextRef": "OneI",
+        "unitRef": "INR",
+        "decimals": "-6"
+      }
+    }
+  ],
+  "DeferredGovernmentGrantsNoncurrent": [
+    {
+      "_": "0",
+      "$": {
+        "contextRef": "OneI",
+        "unitRef": "INR",
+        "decimals": "-6"
+      }
+    }
+  ],
+  "OtherNoncurrentLiabilities": [
+    {
+      "_": "11491000000",
+      "$": {
+        "contextRef": "OneI",
+        "unitRef": "INR",
+        "decimals": "-6"
+      }
+    }
+  ],
+  "NoncurrentLiabilities": [
+    {
+      "_": "1836928000000",
+      "$": {
+        "contextRef": "OneI",
+        "unitRef": "INR",
+        "decimals": "-6"
+      }
+    }
+  ],
+  "BorrowingsCurrent": [
+    {
+      "_": "39601000000",
+      "$": {
+        "contextRef": "OneI",
+        "unitRef": "INR",
+        "decimals": "-6"
+      }
+    }
+  ],
+  "TradePayablesCurrent": [
+    {
+      "_": "282939000000",
+      "$": {
+        "contextRef": "OneI",
+        "unitRef": "INR",
+        "decimals": "-6"
+      }
+    }
+  ],
+  "OtherCurrentFinancialLiabilities": [
+    {
+      "_": "138182000000",
+      "$": {
+        "contextRef": "OneI",
+        "unitRef": "INR",
+        "decimals": "-6"
+      }
+    }
+  ],
+  "CurrentFinancialLiabilities": [
+    {
+      "_": "460722000000",
+      "$": {
+        "contextRef": "OneI",
+        "unitRef": "INR",
+        "decimals": "-6"
+      }
+    }
+  ],
+  "OtherCurrentLiabilities": [
+    {
+      "_": "74416000000",
+      "$": {
+        "contextRef": "OneI",
+        "unitRef": "INR",
+        "decimals": "-6"
+      }
+    }
+  ],
+  "ProvisionsCurrent": [
+    {
+      "_": "217206000000",
+      "$": {
+        "contextRef": "OneI",
+        "unitRef": "INR",
+        "decimals": "-6"
+      }
+    }
+  ],
+  "CurrentTaxLiabilities": [
+    {
+      "_": "9000000",
+      "$": {
+        "contextRef": "OneI",
+        "unitRef": "INR",
+        "decimals": "-6"
+      }
+    }
+  ],
+  "DeferredGovernmentGrantsCurrent": [
+    {
+      "_": "0",
+      "$": {
+        "contextRef": "OneI",
+        "unitRef": "INR",
+        "decimals": "-6"
+      }
+    }
+  ],
+  "CurrentLiabilities": [
+    {
+      "_": "752353000000",
+      "$": {
+        "contextRef": "OneI",
+        "unitRef": "INR",
+        "decimals": "-6"
+      }
+    }
+  ],
+  "LiabilitiesDirectlyAssociatedWithAssetsInDisposalGroupClassifiedAsHeldForSale": [
+    {
+      "_": "0",
+      "$": {
+        "contextRef": "OneI",
+        "unitRef": "INR",
+        "decimals": "-6"
+      }
+    }
+  ],
+  "RegulatoryDeferralAccountCreditBalancesAndRelatedDeferredTaxLiability": [
+    {
+      "_": "0",
+      "$": {
+        "contextRef": "OneI",
+        "unitRef": "INR",
+        "decimals": "-6"
+      }
+    }
+  ],
+  "Liabilities": [
+    {
+      "_": "2589281000000",
+      "$": {
+        "contextRef": "OneI",
+        "unitRef": "INR",
+        "decimals": "-6"
+      }
+    }
+  ],
+  "EquityAndLiabilities": [
+    {
+      "_": "3427601000000",
+      "$": {
+        "contextRef": "OneI",
+        "unitRef": "INR",
+        "decimals": "-6"
+      }
+    }
+  ],
+  "AdjustmentsForFinanceCosts": [
+    {
+      "_": "83278000000",
+      "$": {
+        "contextRef": "FourD",
+        "unitRef": "INR",
+        "decimals": "-6"
+      }
+    }
+  ],
+  "AdjustmentsForDecreaseIncreaseInInventories": [
+    {
+      "_": "-23000000",
+      "$": {
+        "contextRef": "FourD",
+        "unitRef": "INR",
+        "decimals": "-6"
+      }
+    }
+  ],
+  "AdjustmentsForDecreaseIncreaseInTradeReceivablesCurrent": [
+    {
+      "_": "-9277000000",
+      "$": {
+        "contextRef": "FourD",
+        "unitRef": "INR",
+        "decimals": "-6"
+      }
+    }
+  ],
+  "AdjustmentsForDecreaseIncreaseInTradeReceivablesNoncurrent": [
+    {
+      "_": "0",
+      "$": {
+        "contextRef": "FourD",
+        "unitRef": "INR",
+        "decimals": "-6"
+      }
+    }
+  ],
+  "AdjustmentsForDecreaseIncreaseInOtherCurrentAssets": [
+    {
+      "_": "0",
+      "$": {
+        "contextRef": "FourD",
+        "unitRef": "INR",
+        "decimals": "-6"
+      }
+    }
+  ],
+  "AdjustmentsForDecreaseIncreaseInOtherNoncurrentAssets": [
+    {
+      "_": "0",
+      "$": {
+        "contextRef": "FourD",
+        "unitRef": "INR",
+        "decimals": "-6"
+      }
+    }
+  ],
+  "AdjustmentsForOtherFinancialAssetsNoncurrent": [
+    {
+      "_": "0",
+      "$": {
+        "contextRef": "FourD",
+        "unitRef": "INR",
+        "decimals": "-6"
+      }
+    }
+  ],
+  "AdjustmentsForOtherFinancialAssetsCurrent": [
+    {
+      "_": "-12085000000",
+      "$": {
+        "contextRef": "FourD",
+        "unitRef": "INR",
+        "decimals": "-6"
+      }
+    }
+  ],
+  "AdjustmentsForOtherBankBalances": [
+    {
+      "_": "0",
+      "$": {
+        "contextRef": "FourD",
+        "unitRef": "INR",
+        "decimals": "-6"
+      }
+    }
+  ],
+  "AdjustmentsForIncreaseDecreaseInTradePayablesCurrent": [
+    {
+      "_": "23845000000",
+      "$": {
+        "contextRef": "FourD",
+        "unitRef": "INR",
+        "decimals": "-6"
+      }
+    }
+  ],
+  "AdjustmentsForIncreaseDecreaseInTradePayablesNoncurrent": [
+    {
+      "_": "0",
+      "$": {
+        "contextRef": "FourD",
+        "unitRef": "INR",
+        "decimals": "-6"
+      }
+    }
+  ],
+  "AdjustmentsForIncreaseDecreaseInOtherCurrentLiabilities": [
+    {
+      "_": "0",
+      "$": {
+        "contextRef": "FourD",
+        "unitRef": "INR",
+        "decimals": "-6"
+      }
+    }
+  ],
+  "AdjustmentsForIncreaseDecreaseInOtherNoncurrentLiabilities": [
+    {
+      "_": "0",
+      "$": {
+        "contextRef": "FourD",
+        "unitRef": "INR",
+        "decimals": "-6"
+      }
+    }
+  ],
+  "AdjustmentsForDepreciationAndAmortisationExpense": [
+    {
+      "_": "131120000000",
+      "$": {
+        "contextRef": "FourD",
+        "unitRef": "INR",
+        "decimals": "-6"
+      }
+    }
+  ],
+  "AdjustmentsForImpairmentLossReversalOfImpairmentLossRecognisedInProfitOrLoss": [
+    {
+      "_": "0",
+      "$": {
+        "contextRef": "FourD",
+        "unitRef": "INR",
+        "decimals": "-6"
+      }
+    }
+  ],
+  "AdjustmentsForProvisionsCurrent": [
+    {
+      "_": "0",
+      "$": {
+        "contextRef": "FourD",
+        "unitRef": "INR",
+        "decimals": "-6"
+      }
+    }
+  ],
+  "AdjustmentsForProvisionsNoncurrent": [
+    {
+      "_": "8906000000",
+      "$": {
+        "contextRef": "FourD",
+        "unitRef": "INR",
+        "decimals": "-6"
+      }
+    }
+  ],
+  "AdjustmentsForOtherFinancialLiabilitiesCurrent": [
+    {
+      "_": "1057000000",
+      "$": {
+        "contextRef": "FourD",
+        "unitRef": "INR",
+        "decimals": "-6"
+      }
+    }
+  ],
+  "AdjustmentsForOtherFinancialLiabilitiesNoncurrent": [
+    {
+      "_": "0",
+      "$": {
+        "contextRef": "FourD",
+        "unitRef": "INR",
+        "decimals": "-6"
+      }
+    }
+  ],
+  "AdjustmentsForUnrealisedForeignExchangeLossesGains": [
+    {
+      "_": "0",
+      "$": {
+        "contextRef": "FourD",
+        "unitRef": "INR",
+        "decimals": "-6"
+      }
+    }
+  ],
+  "AdjustmentsForDividendIncome": [
+    {
+      "_": "14536000000",
+      "$": {
+        "contextRef": "FourD",
+        "unitRef": "INR",
+        "decimals": "-6"
+      }
+    }
+  ],
+  "AdjustmentsForInterestIncome": [
+    {
+      "_": "2111000000",
+      "$": {
+        "contextRef": "FourD",
+        "unitRef": "INR",
+        "decimals": "-6"
+      }
+    }
+  ],
+  "AdjustmentsForSharebasedPayments": [
+    {
+      "_": "416000000",
+      "$": {
+        "contextRef": "FourD",
+        "unitRef": "INR",
+        "decimals": "-6"
+      }
+    }
+  ],
+  "AdjustmentsForFairValueGainsLosses": [
+    {
+      "_": "-3936000000",
+      "$": {
+        "contextRef": "FourD",
+        "unitRef": "INR",
+        "decimals": "-6"
+      }
+    }
+  ],
+  "AdjustmentsForUndistributedProfitsOfAssociates": [
+    {
+      "_": "0",
+      "$": {
+        "contextRef": "FourD",
+        "unitRef": "INR",
+        "decimals": "-6"
+      }
+    }
+  ],
+  "OtherAdjustmentsForWhichCashEffectsAreInvestingOrFinancingCashFlow": [
+    {
+      "_": "-61000000",
+      "$": {
+        "contextRef": "FourD",
+        "unitRef": "INR",
+        "decimals": "-6"
+      }
+    }
+  ],
+  "OtherAdjustmentsToReconcileProfitLoss": [
+    {
+      "_": "0",
+      "$": {
+        "contextRef": "FourD",
+        "unitRef": "INR",
+        "decimals": "-6"
+      }
+    }
+  ],
+  "OtherAdjustmentsForNoncashItems": [
+    {
+      "_": "2174000000",
+      "$": {
+        "contextRef": "FourD",
+        "unitRef": "INR",
+        "decimals": "-6"
+      }
+    }
+  ],
+  "ShareOfProfitAndLossFromPartnershipFirmOrAssociationOfPersonsOrLimitedLiabilityPartnerships": [
+    {
+      "_": "0",
+      "$": {
+        "contextRef": "FourD",
+        "unitRef": "INR",
+        "decimals": "-6"
+      }
+    }
+  ],
+  "AdjustmentsForReconcileProfitLoss": [
+    {
+      "_": "208767000000",
+      "$": {
+        "contextRef": "FourD",
+        "unitRef": "INR",
+        "decimals": "-6"
+      }
+    }
+  ],
+  "CashFlowsFromUsedInOperations": [
+    {
+      "_": "227027000000",
+      "$": {
+        "contextRef": "FourD",
+        "unitRef": "INR",
+        "decimals": "-6"
+      }
+    }
+  ],
+  "DividendsReceivedClassifiedAsOperatingActivities": [
+    {
+      "_": "0",
+      "$": {
+        "contextRef": "FourD",
+        "unitRef": "INR",
+        "decimals": "-6"
+      }
+    }
+  ],
+  "InterestPaidClassifiedAsOperatingActivities": [
+    {
+      "_": "0",
+      "$": {
+        "contextRef": "FourD",
+        "unitRef": "INR",
+        "decimals": "-6"
+      }
+    }
+  ],
+  "InterestReceivedClassifiedAsOperatingActivities": [
+    {
+      "_": "0",
+      "$": {
+        "contextRef": "FourD",
+        "unitRef": "INR",
+        "decimals": "-6"
+      }
+    }
+  ],
+  "IncomeTaxesPaidRefundClassifiedAsOperatingActivities": [
+    {
+      "_": "956000000",
+      "$": {
+        "contextRef": "FourD",
+        "unitRef": "INR",
+        "decimals": "-6"
+      }
+    }
+  ],
+  "OtherInflowsOutflowsOfCashClassifiedAsOperatingActivities": [
+    {
+      "_": "0",
+      "$": {
+        "contextRef": "FourD",
+        "unitRef": "INR",
+        "decimals": "-6"
+      }
+    }
+  ],
+  "CashFlowsFromUsedInOperatingActivities": [
+    {
+      "_": "226071000000",
+      "$": {
+        "contextRef": "FourD",
+        "unitRef": "INR",
+        "decimals": "-6"
+      }
+    }
+  ],
+  "CashFlowsFromLosingControlOfSubsidiariesOrOtherBusinessesClassifiedAsInvestingActivities": [
+    {
+      "_": "0",
+      "$": {
+        "contextRef": "FourD",
+        "unitRef": "INR",
+        "decimals": "-6"
+      }
+    }
+  ],
+  "CashFlowsUsedInObtainingControlOfSubsidiariesOrOtherBusinessesClassifiedAsInvestingActivities": [
+    {
+      "_": "0",
+      "$": {
+        "contextRef": "FourD",
+        "unitRef": "INR",
+        "decimals": "-6"
+      }
+    }
+  ],
+  "OtherCashReceiptsFromSalesOfEquityOrDebtInstrumentsOfOtherEntitiesClassifiedAsInvestingActivities": [
+    {
+      "_": "0",
+      "$": {
+        "contextRef": "FourD",
+        "unitRef": "INR",
+        "decimals": "-6"
+      }
+    }
+  ],
+  "OtherCashPaymentsToAcquireEquityOrDebtInstrumentsOfOtherEntitiesClassifiedAsInvestingActivities": [
+    {
+      "_": "923000000",
+      "$": {
+        "contextRef": "FourD",
+        "unitRef": "INR",
+        "decimals": "-6"
+      }
+    }
+  ],
+  "OtherCashReceiptsFromSalesOfInterestsInJointVenturesClassifiedAsInvestingActivities": [
+    {
+      "_": "0",
+      "$": {
+        "contextRef": "FourD",
+        "unitRef": "INR",
+        "decimals": "-6"
+      }
+    }
+  ],
+  "OtherCashPaymentsToAcquireInterestsInJointVenturesClassifiedAsInvestingActivities": [
+    {
+      "_": "0",
+      "$": {
+        "contextRef": "FourD",
+        "unitRef": "INR",
+        "decimals": "-6"
+      }
+    }
+  ],
+  "CashReceiptsFromShareOfProfitsOfPartnershipFirmOrAssociationOfPersonsOrLimitedLiabilityPartnerships": [
+    {
+      "_": "0",
+      "$": {
+        "contextRef": "FourD",
+        "unitRef": "INR",
+        "decimals": "-6"
+      }
+    }
+  ],
+  "CashPaymentForInvestmentInPartnershipFirmOrAssociationOfPersonsOrLimitedLiabilityPartnerships": [
+    {
+      "_": "0",
+      "$": {
+        "contextRef": "FourD",
+        "unitRef": "INR",
+        "decimals": "-6"
+      }
+    }
+  ],
+  "ProceedsFromSalesOfPropertyPlantAndEquipmentClassifiedAsInvestingActivities": [
+    {
+      "_": "360000000",
+      "$": {
+        "contextRef": "FourD",
+        "unitRef": "INR",
+        "decimals": "-6"
+      }
+    }
+  ],
+  "PurchaseOfPropertyPlantAndEquipmentClassifiedAsInvestingActivities": [
+    {
+      "_": "64800000000",
+      "$": {
+        "contextRef": "FourD",
+        "unitRef": "INR",
+        "decimals": "-6"
+      }
+    }
+  ],
+  "ProceedsFromSalesOfInvestmentPropertyClassifiedAsInvestingActivities": [
+    {
+      "_": "0",
+      "$": {
+        "contextRef": "FourD",
+        "unitRef": "INR",
+        "decimals": "-6"
+      }
+    }
+  ],
+  "PurchaseOfInvestmentPropertyClassifiedAsInvestingActivities": [
+    {
+      "_": "0",
+      "$": {
+        "contextRef": "FourD",
+        "unitRef": "INR",
+        "decimals": "-6"
+      }
+    }
+  ],
+  "ProceedsFromSalesOfIntangibleAssetsClassifiedAsInvestingActivities": [
+    {
+      "_": "0",
+      "$": {
+        "contextRef": "FourD",
+        "unitRef": "INR",
+        "decimals": "-6"
+      }
+    }
+  ],
+  "PurchaseOfIntangibleAssetsClassifiedAsInvestingActivities": [
+    {
+      "_": "84147000000",
+      "$": {
+        "contextRef": "FourD",
+        "unitRef": "INR",
+        "decimals": "-6"
+      }
+    }
+  ],
+  "ProceedsFromSalesOfIntangibleAssetsUnderDevelopment": [
+    {
+      "_": "0",
+      "$": {
+        "contextRef": "FourD",
+        "unitRef": "INR",
+        "decimals": "-6"
+      }
+    }
+  ],
+  "PurchaseOfIntangibleAssetsUnderDevelopment": [
+    {
+      "_": "0",
+      "$": {
+        "contextRef": "FourD",
+        "unitRef": "INR",
+        "decimals": "-6"
+      }
+    }
+  ],
+  "ProceedsFromSalesOfGoodwillClassifiedAsInvestingActivities": [
+    {
+      "_": "0",
+      "$": {
+        "contextRef": "FourD",
+        "unitRef": "INR",
+        "decimals": "-6"
+      }
+    }
+  ],
+  "PurchaseOfGoodwillClassifiedAsInvestingActivities": [
+    {
+      "_": "0",
+      "$": {
+        "contextRef": "FourD",
+        "unitRef": "INR",
+        "decimals": "-6"
+      }
+    }
+  ],
+  "ProceedsFromBiologicalAssetsOtherThanBearerPlantsClassifiedAsInvestingActivities": [
+    {
+      "_": "0",
+      "$": {
+        "contextRef": "FourD",
+        "unitRef": "INR",
+        "decimals": "-6"
+      }
+    }
+  ],
+  "PurchaseOfBiologicalAssetsOtherThanBearerPlantsClassifiedAsInvestingActivities": [
+    {
+      "_": "0",
+      "$": {
+        "contextRef": "FourD",
+        "unitRef": "INR",
+        "decimals": "-6"
+      }
+    }
+  ],
+  "ProceedsFromGovernmentGrantsClassifiedAsInvestingActivities": [
+    {
+      "_": "0",
+      "$": {
+        "contextRef": "FourD",
+        "unitRef": "INR",
+        "decimals": "-6"
+      }
+    }
+  ],
+  "ProceedsFromSalesOfOtherLongTermAssetsClassifiedAsInvestingActivities": [
+    {
+      "_": "0",
+      "$": {
+        "contextRef": "FourD",
+        "unitRef": "INR",
+        "decimals": "-6"
+      }
+    }
+  ],
+  "PurchaseOfOtherLongTermAssetsClassifiedAsInvestingActivities": [
+    {
+      "_": "0",
+      "$": {
+        "contextRef": "FourD",
+        "unitRef": "INR",
+        "decimals": "-6"
+      }
+    }
+  ],
+  "CashAdvancesAndLoansMadeToOtherPartiesClassifiedAsInvestingActivities": [
+    {
+      "_": "70568000000",
+      "$": {
+        "contextRef": "FourD",
+        "unitRef": "INR",
+        "decimals": "-6"
+      }
+    }
+  ],
+  "CashReceiptsFromRepaymentOfAdvancesAndLoansMadeToOtherPartiesClassifiedAsInvestingActivities": [
+    {
+      "_": "25939000000",
+      "$": {
+        "contextRef": "FourD",
+        "unitRef": "INR",
+        "decimals": "-6"
+      }
+    }
+  ],
+  "CashPaymentsForFutureContractsForwardContractsOptionContractsAndSwapContractsClassifiedAsInvestingActivities": [
+    {
+      "_": "0",
+      "$": {
+        "contextRef": "FourD",
+        "unitRef": "INR",
+        "decimals": "-6"
+      }
+    }
+  ],
+  "CashReceiptsFromFutureContractsForwardContractsOptionContractsAndSwapContractsClassifiedAsInvestingActivities": [
+    {
+      "_": "0",
+      "$": {
+        "contextRef": "FourD",
+        "unitRef": "INR",
+        "decimals": "-6"
+      }
+    }
+  ],
+  "DividendsReceivedClassifiedAsInvestingActivities": [
+    {
+      "_": "14536000000",
+      "$": {
+        "contextRef": "FourD",
+        "unitRef": "INR",
+        "decimals": "-6"
+      }
+    }
+  ],
+  "InterestReceivedClassifiedAsInvestingActivities": [
+    {
+      "_": "258000000",
+      "$": {
+        "contextRef": "FourD",
+        "unitRef": "INR",
+        "decimals": "-6"
+      }
+    }
+  ],
+  "IncomeTaxesPaidRefundClassifiedAsInvestingActivities": [
+    {
+      "_": "0",
+      "$": {
+        "contextRef": "FourD",
+        "unitRef": "INR",
+        "decimals": "-6"
+      }
+    }
+  ],
+  "OtherInflowsOutflowsOfCashClassifiedAsInvestingActivities": [
+    {
+      "_": "0",
+      "$": {
+        "contextRef": "FourD",
+        "unitRef": "INR",
+        "decimals": "-6"
+      }
+    }
+  ],
+  "CashFlowsFromUsedInInvestingActivities": [
+    {
+      "_": "-179345000000",
+      "$": {
+        "contextRef": "FourD",
+        "unitRef": "INR",
+        "decimals": "-6"
+      }
+    }
+  ],
+  "ProceedsFromChangesInOwnershipInterestsInSubsidiaries": [
+    {
+      "_": "0",
+      "$": {
+        "contextRef": "FourD",
+        "unitRef": "INR",
+        "decimals": "-6"
+      }
+    }
+  ],
+  "PaymentsFromChangesInOwnershipInterestsInSubsidiaries": [
+    {
+      "_": "0",
+      "$": {
+        "contextRef": "FourD",
+        "unitRef": "INR",
+        "decimals": "-6"
+      }
+    }
+  ],
+  "ProceedsFromIssuingSharesClassifiedAsFinancingActivities": [
+    {
+      "_": "52242000000",
+      "$": {
+        "contextRef": "FourD",
+        "unitRef": "INR",
+        "decimals": "-6"
+      }
+    }
+  ],
+  "ProceedsFromIssuingOtherEquityInstruments": [
+    {
+      "_": "0",
+      "$": {
+        "contextRef": "FourD",
+        "unitRef": "INR",
+        "decimals": "-6"
+      }
+    }
+  ],
+  "PaymentsToAcquireOrRedeemEntitysShares": [
+    {
+      "_": "0",
+      "$": {
+        "contextRef": "FourD",
+        "unitRef": "INR",
+        "decimals": "-6"
+      }
+    }
+  ],
+  "PaymentsOfOtherEquityInstruments": [
+    {
+      "_": "0",
+      "$": {
+        "contextRef": "FourD",
+        "unitRef": "INR",
+        "decimals": "-6"
+      }
+    }
+  ],
+  "ProceedsFromExerciseOfStockOptions": [
+    {
+      "_": "1000000",
+      "$": {
+        "contextRef": "FourD",
+        "unitRef": "INR",
+        "decimals": "-6"
+      }
+    }
+  ],
+  "ProceedsFromIssuingDebenturesNotesBondsEtc": [
+    {
+      "_": "0",
+      "$": {
+        "contextRef": "FourD",
+        "unitRef": "INR",
+        "decimals": "-6"
+      }
+    }
+  ],
+  "ProceedsFromBorrowingsClassifiedAsFinancingActivities": [
+    {
+      "_": "29692000000",
+      "$": {
+        "contextRef": "FourD",
+        "unitRef": "INR",
+        "decimals": "-6"
+      }
+    }
+  ],
+  "RepaymentsOfBorrowingsClassifiedAsFinancingActivities": [
+    {
+      "_": "63759000000",
+      "$": {
+        "contextRef": "FourD",
+        "unitRef": "INR",
+        "decimals": "-6"
+      }
+    }
+  ],
+  "PaymentsOfFinanceLeaseLiabilitiesClassifiedAsFinancingActivities": [
+    {
+      "_": "0",
+      "$": {
+        "contextRef": "FourD",
+        "unitRef": "INR",
+        "decimals": "-6"
+      }
+    }
+  ],
+  "PaymentsOfLeaseLiabilitiesClassifiedAsFinancingActivities": [
+    {
+      "_": "24287000000",
+      "$": {
+        "contextRef": "FourD",
+        "unitRef": "INR",
+        "decimals": "-6"
+      }
+    }
+  ],
+  "DividendsPaidClassifiedAsFinancingActivities": [
+    {
+      "_": "16984000000",
+      "$": {
+        "contextRef": "FourD",
+        "unitRef": "INR",
+        "decimals": "-6"
+      }
+    }
+  ],
+  "InterestPaidClassifiedAsFinancingActivities": [
+    {
+      "_": "22410000000",
+      "$": {
+        "contextRef": "FourD",
+        "unitRef": "INR",
+        "decimals": "-6"
+      }
+    }
+  ],
+  "IncomeTaxesPaidRefundClassifiedAsFinancingActivities": [
+    {
+      "_": "0",
+      "$": {
+        "contextRef": "FourD",
+        "unitRef": "INR",
+        "decimals": "-6"
+      }
+    }
+  ],
+  "OtherInflowsOutflowsOfCashClassifiedAsFinancingActivities": [
+    {
+      "_": "0",
+      "$": {
+        "contextRef": "FourD",
+        "unitRef": "INR",
+        "decimals": "-6"
+      }
+    }
+  ],
+  "CashFlowsFromUsedInFinancingActivities": [
+    {
+      "_": "-45505000000",
+      "$": {
+        "contextRef": "FourD",
+        "unitRef": "INR",
+        "decimals": "-6"
+      }
+    }
+  ],
+  "IncreaseDecreaseInCashAndCashEquivalentsBeforeEffectOfExchangeRateChanges": [
+    {
+      "_": "1221000000",
+      "$": {
+        "contextRef": "FourD",
+        "unitRef": "INR",
+        "decimals": "-6"
+      }
+    }
+  ],
+  "EffectOfExchangeRateChangesOnCashAndCashEquivalents": [
+    {
+      "_": "0",
+      "$": {
+        "contextRef": "FourD",
+        "unitRef": "INR",
+        "decimals": "-6"
+      }
+    }
+  ],
+  "IncreaseDecreaseInCashAndCashEquivalents": [
+    {
+      "_": "1221000000",
+      "$": {
+        "contextRef": "FourD",
+        "unitRef": "INR",
+        "decimals": "-6"
+      }
+    }
+  ],
+  "CashAndCashEquivalentsCashFlowStatement": [
+    {
+      "_": "2995000000",
+      "$": {
+        "contextRef": "PY_I",
+        "unitRef": "INR",
+        "decimals": "-6"
+      }
+    },
+    {
+      "_": "4216000000",
+      "$": {
+        "contextRef": "OneI",
+        "unitRef": "INR",
+        "decimals": "-6"
+      }
+    }
+  ],
+  "DescriptionOfItemThatWillNotBeReclassifiedToProfitAndLoss": [
+    {
+      "_": "Re-measurement loss on defined benefit plans",
+      "$": {
+        "contextRef": "D_ItemsThatWillNotBeReclassifiedToProfitAndLoss11"
+      }
+    },
+    {
+      "_": "Re-measurement loss on defined benefit plans",
+      "$": {
+        "contextRef": "D_ItemsThatWillNotBeReclassifiedToProfitAndLoss41"
+      }
+    }
+  ],
+  "AmountOfItemThatWillNotBeReclassifiedToProfitAndLoss": [
+    {
+      "_": "-10000000",
+      "$": {
+        "contextRef": "D_ItemsThatWillNotBeReclassifiedToProfitAndLoss11",
+        "unitRef": "INR",
+        "decimals": "-6"
+      }
+    },
+    {
+      "_": "-10000000",
+      "$": {
+        "contextRef": "OneD",
+        "unitRef": "INR",
+        "decimals": "-6"
+      }
+    },
+    {
+      "_": "-134000000",
+      "$": {
+        "contextRef": "D_ItemsThatWillNotBeReclassifiedToProfitAndLoss41",
+        "unitRef": "INR",
+        "decimals": "-6"
+      }
+    },
+    {
+      "_": "-134000000",
+      "$": {
+        "contextRef": "FourD",
+        "unitRef": "INR",
+        "decimals": "-6"
+      }
+    }
+  ],
+  "IncomeTaxRelatingToItmesThatWillNotBeReclassifiedToProfitOrLoss": [
+    {
+      "_": "-3000000",
+      "$": {
+        "contextRef": "OneD",
+        "unitRef": "INR",
+        "decimals": "-6"
+      }
+    },
+    {
+      "_": "-34000000",
+      "$": {
+        "contextRef": "FourD",
+        "unitRef": "INR",
+        "decimals": "-6"
+      }
+    }
+  ],
+  "IncomeTaxRelatingToItmesThatWillBeReclassifiedToProfitOrLoss": [
+    {
+      "_": "0",
+      "$": {
+        "contextRef": "OneD",
+        "unitRef": "INR",
+        "decimals": "-6"
+      }
+    },
+    {
+      "_": "0",
+      "$": {
+        "contextRef": "FourD",
+        "unitRef": "INR",
+        "decimals": "-6"
+      }
+    }
+  ]
+}

@@ -1,0 +1,5676 @@
+{
+  "xbrli:xbrl": {
+    "$": {
+      "xmlns:in-bse-fin": "http://www.bseindia.com/xbrl/fin/2020-03-31/in-bse-fin",
+      "xmlns:in-bse-fin-roles": "http://www.bseindia.com/xbrl/fin/2020-03-31/in-bse-fin-roles",
+      "xmlns:in-bse-fin-ent": "http://www.bseindia.com/xbrl/fin/2020-03-31/in-bse-fin/in-bse-fin-ent",
+      "xmlns:xbrldt": "http://xbrl.org/2005/xbrldt",
+      "xmlns:nonnum": "http://www.xbrl.org/dtr/type/non-numeric",
+      "xmlns:in-bse-fin-types": "http://www.bseindia.com/xbrl/fin/2020-03-31/in-bse-fin-types",
+      "xmlns:link": "http://www.xbrl.org/2003/linkbase",
+      "xmlns:net": "http://www.xbrl.org/2009/role/net",
+      "xmlns:num": "http://www.xbrl.org/dtr/type/numeric",
+      "xmlns:xlink": "http://www.w3.org/1999/xlink",
+      "xmlns:iso4217": "http://www.xbrl.org/2003/iso4217",
+      "xmlns:negated": "http://www.xbrl.org/2009/role/negated",
+      "xmlns:xbrldi": "http://xbrl.org/2006/xbrldi",
+      "xmlns:xbrli": "http://www.xbrl.org/2003/instance",
+      "xmlns:xl": "http://www.xbrl.org/2003/XLink"
+    },
+    "link:schemaRef": [
+      {
+        "$": {
+          "xlink:type": "simple",
+          "xlink:href": "Ind-AS_entry_point_2020-03-31.xsd"
+        }
+      }
+    ],
+    "xbrli:context": [
+      {
+        "$": {
+          "id": "OneD"
+        },
+        "xbrli:entity": [
+          {
+            "xbrli:identifier": [
+              {
+                "_": "500325",
+                "$": {
+                  "scheme": "http://www.bseindia.com/bse-fin/ScripCode"
+                }
+              }
+            ]
+          }
+        ],
+        "xbrli:period": [
+          {
+            "xbrli:startDate": [
+              "2022-07-01"
+            ],
+            "xbrli:endDate": [
+              "2022-09-30"
+            ]
+          }
+        ]
+      },
+      {
+        "$": {
+          "id": "OneI"
+        },
+        "xbrli:entity": [
+          {
+            "xbrli:identifier": [
+              {
+                "_": "500325",
+                "$": {
+                  "scheme": "http://www.bseindia.com/bse-fin/ScripCode"
+                }
+              }
+            ]
+          }
+        ],
+        "xbrli:period": [
+          {
+            "xbrli:instant": [
+              "2022-09-30"
+            ]
+          }
+        ]
+      },
+      {
+        "$": {
+          "id": "PY_I"
+        },
+        "xbrli:entity": [
+          {
+            "xbrli:identifier": [
+              {
+                "_": "500325",
+                "$": {
+                  "scheme": "http://www.bseindia.com/bse-fin/ScripCode"
+                }
+              }
+            ]
+          }
+        ],
+        "xbrli:period": [
+          {
+            "xbrli:instant": [
+              "2022-03-31"
+            ]
+          }
+        ]
+      },
+      {
+        "$": {
+          "id": "FourD"
+        },
+        "xbrli:entity": [
+          {
+            "xbrli:identifier": [
+              {
+                "_": "500325",
+                "$": {
+                  "scheme": "http://www.bseindia.com/bse-fin/ScripCode"
+                }
+              }
+            ]
+          }
+        ],
+        "xbrli:period": [
+          {
+            "xbrli:startDate": [
+              "2022-04-01"
+            ],
+            "xbrli:endDate": [
+              "2022-09-30"
+            ]
+          }
+        ]
+      },
+      {
+        "$": {
+          "id": "OneExpenses1D"
+        },
+        "xbrli:entity": [
+          {
+            "xbrli:identifier": [
+              {
+                "_": "500325",
+                "$": {
+                  "scheme": "http://www.bseindia.com/bse-fin/ScripCode"
+                }
+              }
+            ]
+          }
+        ],
+        "xbrli:period": [
+          {
+            "xbrli:startDate": [
+              "2022-07-01"
+            ],
+            "xbrli:endDate": [
+              "2022-09-30"
+            ]
+          }
+        ],
+        "xbrli:scenario": [
+          {
+            "xbrldi:explicitMember": [
+              {
+                "_": "in-bse-fin:OtherExpenses1Member",
+                "$": {
+                  "dimension": "in-bse-fin:DetailsOfOtherExpensesAxis"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "$": {
+          "id": "OneExpenses2D"
+        },
+        "xbrli:entity": [
+          {
+            "xbrli:identifier": [
+              {
+                "_": "500325",
+                "$": {
+                  "scheme": "http://www.bseindia.com/bse-fin/ScripCode"
+                }
+              }
+            ]
+          }
+        ],
+        "xbrli:period": [
+          {
+            "xbrli:startDate": [
+              "2022-07-01"
+            ],
+            "xbrli:endDate": [
+              "2022-09-30"
+            ]
+          }
+        ],
+        "xbrli:scenario": [
+          {
+            "xbrldi:explicitMember": [
+              {
+                "_": "in-bse-fin:OtherExpenses2Member",
+                "$": {
+                  "dimension": "in-bse-fin:DetailsOfOtherExpensesAxis"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "$": {
+          "id": "FourExpenses1D"
+        },
+        "xbrli:entity": [
+          {
+            "xbrli:identifier": [
+              {
+                "_": "500325",
+                "$": {
+                  "scheme": "http://www.bseindia.com/bse-fin/ScripCode"
+                }
+              }
+            ]
+          }
+        ],
+        "xbrli:period": [
+          {
+            "xbrli:startDate": [
+              "2022-04-01"
+            ],
+            "xbrli:endDate": [
+              "2022-09-30"
+            ]
+          }
+        ],
+        "xbrli:scenario": [
+          {
+            "xbrldi:explicitMember": [
+              {
+                "_": "in-bse-fin:OtherExpenses1Member",
+                "$": {
+                  "dimension": "in-bse-fin:DetailsOfOtherExpensesAxis"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "$": {
+          "id": "FourExpenses2D"
+        },
+        "xbrli:entity": [
+          {
+            "xbrli:identifier": [
+              {
+                "_": "500325",
+                "$": {
+                  "scheme": "http://www.bseindia.com/bse-fin/ScripCode"
+                }
+              }
+            ]
+          }
+        ],
+        "xbrli:period": [
+          {
+            "xbrli:startDate": [
+              "2022-04-01"
+            ],
+            "xbrli:endDate": [
+              "2022-09-30"
+            ]
+          }
+        ],
+        "xbrli:scenario": [
+          {
+            "xbrldi:explicitMember": [
+              {
+                "_": "in-bse-fin:OtherExpenses2Member",
+                "$": {
+                  "dimension": "in-bse-fin:DetailsOfOtherExpensesAxis"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "$": {
+          "id": "OneReportable1D"
+        },
+        "xbrli:entity": [
+          {
+            "xbrli:identifier": [
+              {
+                "_": "500325",
+                "$": {
+                  "scheme": "http://www.bseindia.com/bse-fin/ScripCode"
+                }
+              }
+            ]
+          }
+        ],
+        "xbrli:period": [
+          {
+            "xbrli:startDate": [
+              "2022-07-01"
+            ],
+            "xbrli:endDate": [
+              "2022-09-30"
+            ]
+          }
+        ],
+        "xbrli:scenario": [
+          {
+            "xbrldi:explicitMember": [
+              {
+                "_": "in-bse-fin:ReportableSegments1Member",
+                "$": {
+                  "dimension": "in-bse-fin:ReportableSegmentsAxis"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "$": {
+          "id": "OneReportable2D"
+        },
+        "xbrli:entity": [
+          {
+            "xbrli:identifier": [
+              {
+                "_": "500325",
+                "$": {
+                  "scheme": "http://www.bseindia.com/bse-fin/ScripCode"
+                }
+              }
+            ]
+          }
+        ],
+        "xbrli:period": [
+          {
+            "xbrli:startDate": [
+              "2022-07-01"
+            ],
+            "xbrli:endDate": [
+              "2022-09-30"
+            ]
+          }
+        ],
+        "xbrli:scenario": [
+          {
+            "xbrldi:explicitMember": [
+              {
+                "_": "in-bse-fin:ReportableSegments2Member",
+                "$": {
+                  "dimension": "in-bse-fin:ReportableSegmentsAxis"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "$": {
+          "id": "OneReportable3D"
+        },
+        "xbrli:entity": [
+          {
+            "xbrli:identifier": [
+              {
+                "_": "500325",
+                "$": {
+                  "scheme": "http://www.bseindia.com/bse-fin/ScripCode"
+                }
+              }
+            ]
+          }
+        ],
+        "xbrli:period": [
+          {
+            "xbrli:startDate": [
+              "2022-07-01"
+            ],
+            "xbrli:endDate": [
+              "2022-09-30"
+            ]
+          }
+        ],
+        "xbrli:scenario": [
+          {
+            "xbrldi:explicitMember": [
+              {
+                "_": "in-bse-fin:ReportableSegments3Member",
+                "$": {
+                  "dimension": "in-bse-fin:ReportableSegmentsAxis"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "$": {
+          "id": "OneReportable4D"
+        },
+        "xbrli:entity": [
+          {
+            "xbrli:identifier": [
+              {
+                "_": "500325",
+                "$": {
+                  "scheme": "http://www.bseindia.com/bse-fin/ScripCode"
+                }
+              }
+            ]
+          }
+        ],
+        "xbrli:period": [
+          {
+            "xbrli:startDate": [
+              "2022-07-01"
+            ],
+            "xbrli:endDate": [
+              "2022-09-30"
+            ]
+          }
+        ],
+        "xbrli:scenario": [
+          {
+            "xbrldi:explicitMember": [
+              {
+                "_": "in-bse-fin:ReportableSegments4Member",
+                "$": {
+                  "dimension": "in-bse-fin:ReportableSegmentsAxis"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "$": {
+          "id": "OneReportable5D"
+        },
+        "xbrli:entity": [
+          {
+            "xbrli:identifier": [
+              {
+                "_": "500325",
+                "$": {
+                  "scheme": "http://www.bseindia.com/bse-fin/ScripCode"
+                }
+              }
+            ]
+          }
+        ],
+        "xbrli:period": [
+          {
+            "xbrli:startDate": [
+              "2022-07-01"
+            ],
+            "xbrli:endDate": [
+              "2022-09-30"
+            ]
+          }
+        ],
+        "xbrli:scenario": [
+          {
+            "xbrldi:explicitMember": [
+              {
+                "_": "in-bse-fin:ReportableSegments5Member",
+                "$": {
+                  "dimension": "in-bse-fin:ReportableSegmentsAxis"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "$": {
+          "id": "OneReportable6D"
+        },
+        "xbrli:entity": [
+          {
+            "xbrli:identifier": [
+              {
+                "_": "500325",
+                "$": {
+                  "scheme": "http://www.bseindia.com/bse-fin/ScripCode"
+                }
+              }
+            ]
+          }
+        ],
+        "xbrli:period": [
+          {
+            "xbrli:startDate": [
+              "2022-07-01"
+            ],
+            "xbrli:endDate": [
+              "2022-09-30"
+            ]
+          }
+        ],
+        "xbrli:scenario": [
+          {
+            "xbrldi:explicitMember": [
+              {
+                "_": "in-bse-fin:ReportableSegments6Member",
+                "$": {
+                  "dimension": "in-bse-fin:ReportableSegmentsAxis"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "$": {
+          "id": "FourReportable1D"
+        },
+        "xbrli:entity": [
+          {
+            "xbrli:identifier": [
+              {
+                "_": "500325",
+                "$": {
+                  "scheme": "http://www.bseindia.com/bse-fin/ScripCode"
+                }
+              }
+            ]
+          }
+        ],
+        "xbrli:period": [
+          {
+            "xbrli:startDate": [
+              "2022-04-01"
+            ],
+            "xbrli:endDate": [
+              "2022-09-30"
+            ]
+          }
+        ],
+        "xbrli:scenario": [
+          {
+            "xbrldi:explicitMember": [
+              {
+                "_": "in-bse-fin:ReportableSegments1Member",
+                "$": {
+                  "dimension": "in-bse-fin:ReportableSegmentsAxis"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "$": {
+          "id": "FourReportable2D"
+        },
+        "xbrli:entity": [
+          {
+            "xbrli:identifier": [
+              {
+                "_": "500325",
+                "$": {
+                  "scheme": "http://www.bseindia.com/bse-fin/ScripCode"
+                }
+              }
+            ]
+          }
+        ],
+        "xbrli:period": [
+          {
+            "xbrli:startDate": [
+              "2022-04-01"
+            ],
+            "xbrli:endDate": [
+              "2022-09-30"
+            ]
+          }
+        ],
+        "xbrli:scenario": [
+          {
+            "xbrldi:explicitMember": [
+              {
+                "_": "in-bse-fin:ReportableSegments2Member",
+                "$": {
+                  "dimension": "in-bse-fin:ReportableSegmentsAxis"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "$": {
+          "id": "FourReportable3D"
+        },
+        "xbrli:entity": [
+          {
+            "xbrli:identifier": [
+              {
+                "_": "500325",
+                "$": {
+                  "scheme": "http://www.bseindia.com/bse-fin/ScripCode"
+                }
+              }
+            ]
+          }
+        ],
+        "xbrli:period": [
+          {
+            "xbrli:startDate": [
+              "2022-04-01"
+            ],
+            "xbrli:endDate": [
+              "2022-09-30"
+            ]
+          }
+        ],
+        "xbrli:scenario": [
+          {
+            "xbrldi:explicitMember": [
+              {
+                "_": "in-bse-fin:ReportableSegments3Member",
+                "$": {
+                  "dimension": "in-bse-fin:ReportableSegmentsAxis"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "$": {
+          "id": "FourReportable4D"
+        },
+        "xbrli:entity": [
+          {
+            "xbrli:identifier": [
+              {
+                "_": "500325",
+                "$": {
+                  "scheme": "http://www.bseindia.com/bse-fin/ScripCode"
+                }
+              }
+            ]
+          }
+        ],
+        "xbrli:period": [
+          {
+            "xbrli:startDate": [
+              "2022-04-01"
+            ],
+            "xbrli:endDate": [
+              "2022-09-30"
+            ]
+          }
+        ],
+        "xbrli:scenario": [
+          {
+            "xbrldi:explicitMember": [
+              {
+                "_": "in-bse-fin:ReportableSegments4Member",
+                "$": {
+                  "dimension": "in-bse-fin:ReportableSegmentsAxis"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "$": {
+          "id": "FourReportable5D"
+        },
+        "xbrli:entity": [
+          {
+            "xbrli:identifier": [
+              {
+                "_": "500325",
+                "$": {
+                  "scheme": "http://www.bseindia.com/bse-fin/ScripCode"
+                }
+              }
+            ]
+          }
+        ],
+        "xbrli:period": [
+          {
+            "xbrli:startDate": [
+              "2022-04-01"
+            ],
+            "xbrli:endDate": [
+              "2022-09-30"
+            ]
+          }
+        ],
+        "xbrli:scenario": [
+          {
+            "xbrldi:explicitMember": [
+              {
+                "_": "in-bse-fin:ReportableSegments5Member",
+                "$": {
+                  "dimension": "in-bse-fin:ReportableSegmentsAxis"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "$": {
+          "id": "FourReportable6D"
+        },
+        "xbrli:entity": [
+          {
+            "xbrli:identifier": [
+              {
+                "_": "500325",
+                "$": {
+                  "scheme": "http://www.bseindia.com/bse-fin/ScripCode"
+                }
+              }
+            ]
+          }
+        ],
+        "xbrli:period": [
+          {
+            "xbrli:startDate": [
+              "2022-04-01"
+            ],
+            "xbrli:endDate": [
+              "2022-09-30"
+            ]
+          }
+        ],
+        "xbrli:scenario": [
+          {
+            "xbrldi:explicitMember": [
+              {
+                "_": "in-bse-fin:ReportableSegments6Member",
+                "$": {
+                  "dimension": "in-bse-fin:ReportableSegmentsAxis"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "$": {
+          "id": "OneReportableFinance1D"
+        },
+        "xbrli:entity": [
+          {
+            "xbrli:identifier": [
+              {
+                "_": "500325",
+                "$": {
+                  "scheme": "http://www.bseindia.com/bse-fin/ScripCode"
+                }
+              }
+            ]
+          }
+        ],
+        "xbrli:period": [
+          {
+            "xbrli:startDate": [
+              "2022-07-01"
+            ],
+            "xbrli:endDate": [
+              "2022-09-30"
+            ]
+          }
+        ],
+        "xbrli:scenario": [
+          {
+            "xbrldi:explicitMember": [
+              {
+                "_": "in-bse-fin:ReportableSegments1Member",
+                "$": {
+                  "dimension": "in-bse-fin:ReportableSegmentsFinanceCostsAxis"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "$": {
+          "id": "OneReportableFinance2D"
+        },
+        "xbrli:entity": [
+          {
+            "xbrli:identifier": [
+              {
+                "_": "500325",
+                "$": {
+                  "scheme": "http://www.bseindia.com/bse-fin/ScripCode"
+                }
+              }
+            ]
+          }
+        ],
+        "xbrli:period": [
+          {
+            "xbrli:startDate": [
+              "2022-07-01"
+            ],
+            "xbrli:endDate": [
+              "2022-09-30"
+            ]
+          }
+        ],
+        "xbrli:scenario": [
+          {
+            "xbrldi:explicitMember": [
+              {
+                "_": "in-bse-fin:ReportableSegments2Member",
+                "$": {
+                  "dimension": "in-bse-fin:ReportableSegmentsFinanceCostsAxis"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "$": {
+          "id": "OneReportableFinance3D"
+        },
+        "xbrli:entity": [
+          {
+            "xbrli:identifier": [
+              {
+                "_": "500325",
+                "$": {
+                  "scheme": "http://www.bseindia.com/bse-fin/ScripCode"
+                }
+              }
+            ]
+          }
+        ],
+        "xbrli:period": [
+          {
+            "xbrli:startDate": [
+              "2022-07-01"
+            ],
+            "xbrli:endDate": [
+              "2022-09-30"
+            ]
+          }
+        ],
+        "xbrli:scenario": [
+          {
+            "xbrldi:explicitMember": [
+              {
+                "_": "in-bse-fin:ReportableSegments3Member",
+                "$": {
+                  "dimension": "in-bse-fin:ReportableSegmentsFinanceCostsAxis"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "$": {
+          "id": "OneReportableFinance4D"
+        },
+        "xbrli:entity": [
+          {
+            "xbrli:identifier": [
+              {
+                "_": "500325",
+                "$": {
+                  "scheme": "http://www.bseindia.com/bse-fin/ScripCode"
+                }
+              }
+            ]
+          }
+        ],
+        "xbrli:period": [
+          {
+            "xbrli:startDate": [
+              "2022-07-01"
+            ],
+            "xbrli:endDate": [
+              "2022-09-30"
+            ]
+          }
+        ],
+        "xbrli:scenario": [
+          {
+            "xbrldi:explicitMember": [
+              {
+                "_": "in-bse-fin:ReportableSegments4Member",
+                "$": {
+                  "dimension": "in-bse-fin:ReportableSegmentsFinanceCostsAxis"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "$": {
+          "id": "OneReportableFinance5D"
+        },
+        "xbrli:entity": [
+          {
+            "xbrli:identifier": [
+              {
+                "_": "500325",
+                "$": {
+                  "scheme": "http://www.bseindia.com/bse-fin/ScripCode"
+                }
+              }
+            ]
+          }
+        ],
+        "xbrli:period": [
+          {
+            "xbrli:startDate": [
+              "2022-07-01"
+            ],
+            "xbrli:endDate": [
+              "2022-09-30"
+            ]
+          }
+        ],
+        "xbrli:scenario": [
+          {
+            "xbrldi:explicitMember": [
+              {
+                "_": "in-bse-fin:ReportableSegments5Member",
+                "$": {
+                  "dimension": "in-bse-fin:ReportableSegmentsFinanceCostsAxis"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "$": {
+          "id": "OneReportableFinance6D"
+        },
+        "xbrli:entity": [
+          {
+            "xbrli:identifier": [
+              {
+                "_": "500325",
+                "$": {
+                  "scheme": "http://www.bseindia.com/bse-fin/ScripCode"
+                }
+              }
+            ]
+          }
+        ],
+        "xbrli:period": [
+          {
+            "xbrli:startDate": [
+              "2022-07-01"
+            ],
+            "xbrli:endDate": [
+              "2022-09-30"
+            ]
+          }
+        ],
+        "xbrli:scenario": [
+          {
+            "xbrldi:explicitMember": [
+              {
+                "_": "in-bse-fin:ReportableSegments6Member",
+                "$": {
+                  "dimension": "in-bse-fin:ReportableSegmentsFinanceCostsAxis"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "$": {
+          "id": "FourReportableFinance1D"
+        },
+        "xbrli:entity": [
+          {
+            "xbrli:identifier": [
+              {
+                "_": "500325",
+                "$": {
+                  "scheme": "http://www.bseindia.com/bse-fin/ScripCode"
+                }
+              }
+            ]
+          }
+        ],
+        "xbrli:period": [
+          {
+            "xbrli:startDate": [
+              "2022-04-01"
+            ],
+            "xbrli:endDate": [
+              "2022-09-30"
+            ]
+          }
+        ],
+        "xbrli:scenario": [
+          {
+            "xbrldi:explicitMember": [
+              {
+                "_": "in-bse-fin:ReportableSegments1Member",
+                "$": {
+                  "dimension": "in-bse-fin:ReportableSegmentsFinanceCostsAxis"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "$": {
+          "id": "FourReportableFinance2D"
+        },
+        "xbrli:entity": [
+          {
+            "xbrli:identifier": [
+              {
+                "_": "500325",
+                "$": {
+                  "scheme": "http://www.bseindia.com/bse-fin/ScripCode"
+                }
+              }
+            ]
+          }
+        ],
+        "xbrli:period": [
+          {
+            "xbrli:startDate": [
+              "2022-04-01"
+            ],
+            "xbrli:endDate": [
+              "2022-09-30"
+            ]
+          }
+        ],
+        "xbrli:scenario": [
+          {
+            "xbrldi:explicitMember": [
+              {
+                "_": "in-bse-fin:ReportableSegments2Member",
+                "$": {
+                  "dimension": "in-bse-fin:ReportableSegmentsFinanceCostsAxis"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "$": {
+          "id": "FourReportableFinance3D"
+        },
+        "xbrli:entity": [
+          {
+            "xbrli:identifier": [
+              {
+                "_": "500325",
+                "$": {
+                  "scheme": "http://www.bseindia.com/bse-fin/ScripCode"
+                }
+              }
+            ]
+          }
+        ],
+        "xbrli:period": [
+          {
+            "xbrli:startDate": [
+              "2022-04-01"
+            ],
+            "xbrli:endDate": [
+              "2022-09-30"
+            ]
+          }
+        ],
+        "xbrli:scenario": [
+          {
+            "xbrldi:explicitMember": [
+              {
+                "_": "in-bse-fin:ReportableSegments3Member",
+                "$": {
+                  "dimension": "in-bse-fin:ReportableSegmentsFinanceCostsAxis"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "$": {
+          "id": "FourReportableFinance4D"
+        },
+        "xbrli:entity": [
+          {
+            "xbrli:identifier": [
+              {
+                "_": "500325",
+                "$": {
+                  "scheme": "http://www.bseindia.com/bse-fin/ScripCode"
+                }
+              }
+            ]
+          }
+        ],
+        "xbrli:period": [
+          {
+            "xbrli:startDate": [
+              "2022-04-01"
+            ],
+            "xbrli:endDate": [
+              "2022-09-30"
+            ]
+          }
+        ],
+        "xbrli:scenario": [
+          {
+            "xbrldi:explicitMember": [
+              {
+                "_": "in-bse-fin:ReportableSegments4Member",
+                "$": {
+                  "dimension": "in-bse-fin:ReportableSegmentsFinanceCostsAxis"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "$": {
+          "id": "FourReportableFinance5D"
+        },
+        "xbrli:entity": [
+          {
+            "xbrli:identifier": [
+              {
+                "_": "500325",
+                "$": {
+                  "scheme": "http://www.bseindia.com/bse-fin/ScripCode"
+                }
+              }
+            ]
+          }
+        ],
+        "xbrli:period": [
+          {
+            "xbrli:startDate": [
+              "2022-04-01"
+            ],
+            "xbrli:endDate": [
+              "2022-09-30"
+            ]
+          }
+        ],
+        "xbrli:scenario": [
+          {
+            "xbrldi:explicitMember": [
+              {
+                "_": "in-bse-fin:ReportableSegments5Member",
+                "$": {
+                  "dimension": "in-bse-fin:ReportableSegmentsFinanceCostsAxis"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "$": {
+          "id": "FourReportableFinance6D"
+        },
+        "xbrli:entity": [
+          {
+            "xbrli:identifier": [
+              {
+                "_": "500325",
+                "$": {
+                  "scheme": "http://www.bseindia.com/bse-fin/ScripCode"
+                }
+              }
+            ]
+          }
+        ],
+        "xbrli:period": [
+          {
+            "xbrli:startDate": [
+              "2022-04-01"
+            ],
+            "xbrli:endDate": [
+              "2022-09-30"
+            ]
+          }
+        ],
+        "xbrli:scenario": [
+          {
+            "xbrldi:explicitMember": [
+              {
+                "_": "in-bse-fin:ReportableSegments6Member",
+                "$": {
+                  "dimension": "in-bse-fin:ReportableSegmentsFinanceCostsAxis"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "$": {
+          "id": "OneReportable31D"
+        },
+        "xbrli:entity": [
+          {
+            "xbrli:identifier": [
+              {
+                "_": "500325",
+                "$": {
+                  "scheme": "http://www.bseindia.com/bse-fin/ScripCode"
+                }
+              }
+            ]
+          }
+        ],
+        "xbrli:period": [
+          {
+            "xbrli:startDate": [
+              "2022-07-01"
+            ],
+            "xbrli:endDate": [
+              "2022-09-30"
+            ]
+          }
+        ],
+        "xbrli:scenario": [
+          {
+            "xbrldi:explicitMember": [
+              {
+                "_": "in-bse-fin:ReportableSegments1Member",
+                "$": {
+                  "dimension": "in-bse-fin:ReportableSegmentAssetsAxis"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "$": {
+          "id": "OneReportable31I"
+        },
+        "xbrli:entity": [
+          {
+            "xbrli:identifier": [
+              {
+                "_": "500325",
+                "$": {
+                  "scheme": "http://www.bseindia.com/bse-fin/ScripCode"
+                }
+              }
+            ]
+          }
+        ],
+        "xbrli:period": [
+          {
+            "xbrli:instant": [
+              "2022-09-30"
+            ]
+          }
+        ],
+        "xbrli:scenario": [
+          {
+            "xbrldi:explicitMember": [
+              {
+                "_": "in-bse-fin:ReportableSegments1Member",
+                "$": {
+                  "dimension": "in-bse-fin:ReportableSegmentAssetsAxis"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "$": {
+          "id": "OneReportable32D"
+        },
+        "xbrli:entity": [
+          {
+            "xbrli:identifier": [
+              {
+                "_": "500325",
+                "$": {
+                  "scheme": "http://www.bseindia.com/bse-fin/ScripCode"
+                }
+              }
+            ]
+          }
+        ],
+        "xbrli:period": [
+          {
+            "xbrli:startDate": [
+              "2022-07-01"
+            ],
+            "xbrli:endDate": [
+              "2022-09-30"
+            ]
+          }
+        ],
+        "xbrli:scenario": [
+          {
+            "xbrldi:explicitMember": [
+              {
+                "_": "in-bse-fin:ReportableSegments2Member",
+                "$": {
+                  "dimension": "in-bse-fin:ReportableSegmentAssetsAxis"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "$": {
+          "id": "OneReportable32I"
+        },
+        "xbrli:entity": [
+          {
+            "xbrli:identifier": [
+              {
+                "_": "500325",
+                "$": {
+                  "scheme": "http://www.bseindia.com/bse-fin/ScripCode"
+                }
+              }
+            ]
+          }
+        ],
+        "xbrli:period": [
+          {
+            "xbrli:instant": [
+              "2022-09-30"
+            ]
+          }
+        ],
+        "xbrli:scenario": [
+          {
+            "xbrldi:explicitMember": [
+              {
+                "_": "in-bse-fin:ReportableSegments2Member",
+                "$": {
+                  "dimension": "in-bse-fin:ReportableSegmentAssetsAxis"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "$": {
+          "id": "OneReportable33D"
+        },
+        "xbrli:entity": [
+          {
+            "xbrli:identifier": [
+              {
+                "_": "500325",
+                "$": {
+                  "scheme": "http://www.bseindia.com/bse-fin/ScripCode"
+                }
+              }
+            ]
+          }
+        ],
+        "xbrli:period": [
+          {
+            "xbrli:startDate": [
+              "2022-07-01"
+            ],
+            "xbrli:endDate": [
+              "2022-09-30"
+            ]
+          }
+        ],
+        "xbrli:scenario": [
+          {
+            "xbrldi:explicitMember": [
+              {
+                "_": "in-bse-fin:ReportableSegments3Member",
+                "$": {
+                  "dimension": "in-bse-fin:ReportableSegmentAssetsAxis"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "$": {
+          "id": "OneReportable33I"
+        },
+        "xbrli:entity": [
+          {
+            "xbrli:identifier": [
+              {
+                "_": "500325",
+                "$": {
+                  "scheme": "http://www.bseindia.com/bse-fin/ScripCode"
+                }
+              }
+            ]
+          }
+        ],
+        "xbrli:period": [
+          {
+            "xbrli:instant": [
+              "2022-09-30"
+            ]
+          }
+        ],
+        "xbrli:scenario": [
+          {
+            "xbrldi:explicitMember": [
+              {
+                "_": "in-bse-fin:ReportableSegments3Member",
+                "$": {
+                  "dimension": "in-bse-fin:ReportableSegmentAssetsAxis"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "$": {
+          "id": "OneReportable34D"
+        },
+        "xbrli:entity": [
+          {
+            "xbrli:identifier": [
+              {
+                "_": "500325",
+                "$": {
+                  "scheme": "http://www.bseindia.com/bse-fin/ScripCode"
+                }
+              }
+            ]
+          }
+        ],
+        "xbrli:period": [
+          {
+            "xbrli:startDate": [
+              "2022-07-01"
+            ],
+            "xbrli:endDate": [
+              "2022-09-30"
+            ]
+          }
+        ],
+        "xbrli:scenario": [
+          {
+            "xbrldi:explicitMember": [
+              {
+                "_": "in-bse-fin:ReportableSegments4Member",
+                "$": {
+                  "dimension": "in-bse-fin:ReportableSegmentAssetsAxis"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "$": {
+          "id": "OneReportable34I"
+        },
+        "xbrli:entity": [
+          {
+            "xbrli:identifier": [
+              {
+                "_": "500325",
+                "$": {
+                  "scheme": "http://www.bseindia.com/bse-fin/ScripCode"
+                }
+              }
+            ]
+          }
+        ],
+        "xbrli:period": [
+          {
+            "xbrli:instant": [
+              "2022-09-30"
+            ]
+          }
+        ],
+        "xbrli:scenario": [
+          {
+            "xbrldi:explicitMember": [
+              {
+                "_": "in-bse-fin:ReportableSegments4Member",
+                "$": {
+                  "dimension": "in-bse-fin:ReportableSegmentAssetsAxis"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "$": {
+          "id": "OneReportable35D"
+        },
+        "xbrli:entity": [
+          {
+            "xbrli:identifier": [
+              {
+                "_": "500325",
+                "$": {
+                  "scheme": "http://www.bseindia.com/bse-fin/ScripCode"
+                }
+              }
+            ]
+          }
+        ],
+        "xbrli:period": [
+          {
+            "xbrli:startDate": [
+              "2022-07-01"
+            ],
+            "xbrli:endDate": [
+              "2022-09-30"
+            ]
+          }
+        ],
+        "xbrli:scenario": [
+          {
+            "xbrldi:explicitMember": [
+              {
+                "_": "in-bse-fin:ReportableSegments5Member",
+                "$": {
+                  "dimension": "in-bse-fin:ReportableSegmentAssetsAxis"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "$": {
+          "id": "OneReportable35I"
+        },
+        "xbrli:entity": [
+          {
+            "xbrli:identifier": [
+              {
+                "_": "500325",
+                "$": {
+                  "scheme": "http://www.bseindia.com/bse-fin/ScripCode"
+                }
+              }
+            ]
+          }
+        ],
+        "xbrli:period": [
+          {
+            "xbrli:instant": [
+              "2022-09-30"
+            ]
+          }
+        ],
+        "xbrli:scenario": [
+          {
+            "xbrldi:explicitMember": [
+              {
+                "_": "in-bse-fin:ReportableSegments5Member",
+                "$": {
+                  "dimension": "in-bse-fin:ReportableSegmentAssetsAxis"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "$": {
+          "id": "OneReportable36D"
+        },
+        "xbrli:entity": [
+          {
+            "xbrli:identifier": [
+              {
+                "_": "500325",
+                "$": {
+                  "scheme": "http://www.bseindia.com/bse-fin/ScripCode"
+                }
+              }
+            ]
+          }
+        ],
+        "xbrli:period": [
+          {
+            "xbrli:startDate": [
+              "2022-07-01"
+            ],
+            "xbrli:endDate": [
+              "2022-09-30"
+            ]
+          }
+        ],
+        "xbrli:scenario": [
+          {
+            "xbrldi:explicitMember": [
+              {
+                "_": "in-bse-fin:ReportableSegments6Member",
+                "$": {
+                  "dimension": "in-bse-fin:ReportableSegmentAssetsAxis"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "$": {
+          "id": "OneReportable36I"
+        },
+        "xbrli:entity": [
+          {
+            "xbrli:identifier": [
+              {
+                "_": "500325",
+                "$": {
+                  "scheme": "http://www.bseindia.com/bse-fin/ScripCode"
+                }
+              }
+            ]
+          }
+        ],
+        "xbrli:period": [
+          {
+            "xbrli:instant": [
+              "2022-09-30"
+            ]
+          }
+        ],
+        "xbrli:scenario": [
+          {
+            "xbrldi:explicitMember": [
+              {
+                "_": "in-bse-fin:ReportableSegments6Member",
+                "$": {
+                  "dimension": "in-bse-fin:ReportableSegmentAssetsAxis"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "$": {
+          "id": "OneReportable41D"
+        },
+        "xbrli:entity": [
+          {
+            "xbrli:identifier": [
+              {
+                "_": "500325",
+                "$": {
+                  "scheme": "http://www.bseindia.com/bse-fin/ScripCode"
+                }
+              }
+            ]
+          }
+        ],
+        "xbrli:period": [
+          {
+            "xbrli:startDate": [
+              "2022-07-01"
+            ],
+            "xbrli:endDate": [
+              "2022-09-30"
+            ]
+          }
+        ],
+        "xbrli:scenario": [
+          {
+            "xbrldi:explicitMember": [
+              {
+                "_": "in-bse-fin:ReportableSegments1Member",
+                "$": {
+                  "dimension": "in-bse-fin:ReportableSegmentLiabilitiesAxis"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "$": {
+          "id": "OneReportable41I"
+        },
+        "xbrli:entity": [
+          {
+            "xbrli:identifier": [
+              {
+                "_": "500325",
+                "$": {
+                  "scheme": "http://www.bseindia.com/bse-fin/ScripCode"
+                }
+              }
+            ]
+          }
+        ],
+        "xbrli:period": [
+          {
+            "xbrli:instant": [
+              "2022-09-30"
+            ]
+          }
+        ],
+        "xbrli:scenario": [
+          {
+            "xbrldi:explicitMember": [
+              {
+                "_": "in-bse-fin:ReportableSegments1Member",
+                "$": {
+                  "dimension": "in-bse-fin:ReportableSegmentLiabilitiesAxis"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "$": {
+          "id": "OneReportable42D"
+        },
+        "xbrli:entity": [
+          {
+            "xbrli:identifier": [
+              {
+                "_": "500325",
+                "$": {
+                  "scheme": "http://www.bseindia.com/bse-fin/ScripCode"
+                }
+              }
+            ]
+          }
+        ],
+        "xbrli:period": [
+          {
+            "xbrli:startDate": [
+              "2022-07-01"
+            ],
+            "xbrli:endDate": [
+              "2022-09-30"
+            ]
+          }
+        ],
+        "xbrli:scenario": [
+          {
+            "xbrldi:explicitMember": [
+              {
+                "_": "in-bse-fin:ReportableSegments2Member",
+                "$": {
+                  "dimension": "in-bse-fin:ReportableSegmentLiabilitiesAxis"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "$": {
+          "id": "OneReportable42I"
+        },
+        "xbrli:entity": [
+          {
+            "xbrli:identifier": [
+              {
+                "_": "500325",
+                "$": {
+                  "scheme": "http://www.bseindia.com/bse-fin/ScripCode"
+                }
+              }
+            ]
+          }
+        ],
+        "xbrli:period": [
+          {
+            "xbrli:instant": [
+              "2022-09-30"
+            ]
+          }
+        ],
+        "xbrli:scenario": [
+          {
+            "xbrldi:explicitMember": [
+              {
+                "_": "in-bse-fin:ReportableSegments2Member",
+                "$": {
+                  "dimension": "in-bse-fin:ReportableSegmentLiabilitiesAxis"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "$": {
+          "id": "OneReportable43D"
+        },
+        "xbrli:entity": [
+          {
+            "xbrli:identifier": [
+              {
+                "_": "500325",
+                "$": {
+                  "scheme": "http://www.bseindia.com/bse-fin/ScripCode"
+                }
+              }
+            ]
+          }
+        ],
+        "xbrli:period": [
+          {
+            "xbrli:startDate": [
+              "2022-07-01"
+            ],
+            "xbrli:endDate": [
+              "2022-09-30"
+            ]
+          }
+        ],
+        "xbrli:scenario": [
+          {
+            "xbrldi:explicitMember": [
+              {
+                "_": "in-bse-fin:ReportableSegments3Member",
+                "$": {
+                  "dimension": "in-bse-fin:ReportableSegmentLiabilitiesAxis"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "$": {
+          "id": "OneReportable43I"
+        },
+        "xbrli:entity": [
+          {
+            "xbrli:identifier": [
+              {
+                "_": "500325",
+                "$": {
+                  "scheme": "http://www.bseindia.com/bse-fin/ScripCode"
+                }
+              }
+            ]
+          }
+        ],
+        "xbrli:period": [
+          {
+            "xbrli:instant": [
+              "2022-09-30"
+            ]
+          }
+        ],
+        "xbrli:scenario": [
+          {
+            "xbrldi:explicitMember": [
+              {
+                "_": "in-bse-fin:ReportableSegments3Member",
+                "$": {
+                  "dimension": "in-bse-fin:ReportableSegmentLiabilitiesAxis"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "$": {
+          "id": "OneReportable44D"
+        },
+        "xbrli:entity": [
+          {
+            "xbrli:identifier": [
+              {
+                "_": "500325",
+                "$": {
+                  "scheme": "http://www.bseindia.com/bse-fin/ScripCode"
+                }
+              }
+            ]
+          }
+        ],
+        "xbrli:period": [
+          {
+            "xbrli:startDate": [
+              "2022-07-01"
+            ],
+            "xbrli:endDate": [
+              "2022-09-30"
+            ]
+          }
+        ],
+        "xbrli:scenario": [
+          {
+            "xbrldi:explicitMember": [
+              {
+                "_": "in-bse-fin:ReportableSegments4Member",
+                "$": {
+                  "dimension": "in-bse-fin:ReportableSegmentLiabilitiesAxis"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "$": {
+          "id": "OneReportable44I"
+        },
+        "xbrli:entity": [
+          {
+            "xbrli:identifier": [
+              {
+                "_": "500325",
+                "$": {
+                  "scheme": "http://www.bseindia.com/bse-fin/ScripCode"
+                }
+              }
+            ]
+          }
+        ],
+        "xbrli:period": [
+          {
+            "xbrli:instant": [
+              "2022-09-30"
+            ]
+          }
+        ],
+        "xbrli:scenario": [
+          {
+            "xbrldi:explicitMember": [
+              {
+                "_": "in-bse-fin:ReportableSegments4Member",
+                "$": {
+                  "dimension": "in-bse-fin:ReportableSegmentLiabilitiesAxis"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "$": {
+          "id": "OneReportable45D"
+        },
+        "xbrli:entity": [
+          {
+            "xbrli:identifier": [
+              {
+                "_": "500325",
+                "$": {
+                  "scheme": "http://www.bseindia.com/bse-fin/ScripCode"
+                }
+              }
+            ]
+          }
+        ],
+        "xbrli:period": [
+          {
+            "xbrli:startDate": [
+              "2022-07-01"
+            ],
+            "xbrli:endDate": [
+              "2022-09-30"
+            ]
+          }
+        ],
+        "xbrli:scenario": [
+          {
+            "xbrldi:explicitMember": [
+              {
+                "_": "in-bse-fin:ReportableSegments5Member",
+                "$": {
+                  "dimension": "in-bse-fin:ReportableSegmentLiabilitiesAxis"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "$": {
+          "id": "OneReportable45I"
+        },
+        "xbrli:entity": [
+          {
+            "xbrli:identifier": [
+              {
+                "_": "500325",
+                "$": {
+                  "scheme": "http://www.bseindia.com/bse-fin/ScripCode"
+                }
+              }
+            ]
+          }
+        ],
+        "xbrli:period": [
+          {
+            "xbrli:instant": [
+              "2022-09-30"
+            ]
+          }
+        ],
+        "xbrli:scenario": [
+          {
+            "xbrldi:explicitMember": [
+              {
+                "_": "in-bse-fin:ReportableSegments5Member",
+                "$": {
+                  "dimension": "in-bse-fin:ReportableSegmentLiabilitiesAxis"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "$": {
+          "id": "OneReportable46D"
+        },
+        "xbrli:entity": [
+          {
+            "xbrli:identifier": [
+              {
+                "_": "500325",
+                "$": {
+                  "scheme": "http://www.bseindia.com/bse-fin/ScripCode"
+                }
+              }
+            ]
+          }
+        ],
+        "xbrli:period": [
+          {
+            "xbrli:startDate": [
+              "2022-07-01"
+            ],
+            "xbrli:endDate": [
+              "2022-09-30"
+            ]
+          }
+        ],
+        "xbrli:scenario": [
+          {
+            "xbrldi:explicitMember": [
+              {
+                "_": "in-bse-fin:ReportableSegments6Member",
+                "$": {
+                  "dimension": "in-bse-fin:ReportableSegmentLiabilitiesAxis"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "$": {
+          "id": "OneReportable46I"
+        },
+        "xbrli:entity": [
+          {
+            "xbrli:identifier": [
+              {
+                "_": "500325",
+                "$": {
+                  "scheme": "http://www.bseindia.com/bse-fin/ScripCode"
+                }
+              }
+            ]
+          }
+        ],
+        "xbrli:period": [
+          {
+            "xbrli:instant": [
+              "2022-09-30"
+            ]
+          }
+        ],
+        "xbrli:scenario": [
+          {
+            "xbrldi:explicitMember": [
+              {
+                "_": "in-bse-fin:ReportableSegments6Member",
+                "$": {
+                  "dimension": "in-bse-fin:ReportableSegmentLiabilitiesAxis"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "$": {
+          "id": "D_ItemsThatWillNotBeReclassifiedToProfitAndLoss11"
+        },
+        "xbrli:entity": [
+          {
+            "xbrli:identifier": [
+              {
+                "_": "500325",
+                "$": {
+                  "scheme": "http://www.bseindia.com/bse-fin/ScripCode"
+                }
+              }
+            ]
+          }
+        ],
+        "xbrli:period": [
+          {
+            "xbrli:startDate": [
+              "2022-07-01"
+            ],
+            "xbrli:endDate": [
+              "2022-09-30"
+            ]
+          }
+        ],
+        "xbrli:scenario": [
+          {
+            "xbrldi:typedMember": [
+              {
+                "$": {
+                  "dimension": "in-bse-fin:ItemsThatWillNotBeReclassifiedToProfitAndLossAxis"
+                },
+                "in-bse-fin:ItemsThatWillNotBeReclassifiedToProfitAndLossDomain": [
+                  "ItemsThatWillNotBeReclassifiedToProfitAndLoss1"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "$": {
+          "id": "D_ItemsThatWillNotBeReclassifiedToProfitAndLoss41"
+        },
+        "xbrli:entity": [
+          {
+            "xbrli:identifier": [
+              {
+                "_": "500325",
+                "$": {
+                  "scheme": "http://www.bseindia.com/bse-fin/ScripCode"
+                }
+              }
+            ]
+          }
+        ],
+        "xbrli:period": [
+          {
+            "xbrli:startDate": [
+              "2022-04-01"
+            ],
+            "xbrli:endDate": [
+              "2022-09-30"
+            ]
+          }
+        ],
+        "xbrli:scenario": [
+          {
+            "xbrldi:typedMember": [
+              {
+                "$": {
+                  "dimension": "in-bse-fin:ItemsThatWillNotBeReclassifiedToProfitAndLossAxis"
+                },
+                "in-bse-fin:ItemsThatWillNotBeReclassifiedToProfitAndLossDomain": [
+                  "ItemsThatWillNotBeReclassifiedToProfitAndLoss1"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "$": {
+          "id": "D_ItemsThatWillBeReclassifiedToProfitAndLoss11"
+        },
+        "xbrli:entity": [
+          {
+            "xbrli:identifier": [
+              {
+                "_": "500325",
+                "$": {
+                  "scheme": "http://www.bseindia.com/bse-fin/ScripCode"
+                }
+              }
+            ]
+          }
+        ],
+        "xbrli:period": [
+          {
+            "xbrli:startDate": [
+              "2022-07-01"
+            ],
+            "xbrli:endDate": [
+              "2022-09-30"
+            ]
+          }
+        ],
+        "xbrli:scenario": [
+          {
+            "xbrldi:typedMember": [
+              {
+                "$": {
+                  "dimension": "in-bse-fin:ItemsThatWillBeReclassifiedToProfitAndLossAxis"
+                },
+                "in-bse-fin:ItemsThatWillBeReclassifiedToProfitAndLossDomain": [
+                  "ItemsThatWillBeReclassifiedToProfitAndLoss1"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "$": {
+          "id": "D_ItemsThatWillBeReclassifiedToProfitAndLoss41"
+        },
+        "xbrli:entity": [
+          {
+            "xbrli:identifier": [
+              {
+                "_": "500325",
+                "$": {
+                  "scheme": "http://www.bseindia.com/bse-fin/ScripCode"
+                }
+              }
+            ]
+          }
+        ],
+        "xbrli:period": [
+          {
+            "xbrli:startDate": [
+              "2022-04-01"
+            ],
+            "xbrli:endDate": [
+              "2022-09-30"
+            ]
+          }
+        ],
+        "xbrli:scenario": [
+          {
+            "xbrldi:typedMember": [
+              {
+                "$": {
+                  "dimension": "in-bse-fin:ItemsThatWillBeReclassifiedToProfitAndLossAxis"
+                },
+                "in-bse-fin:ItemsThatWillBeReclassifiedToProfitAndLossDomain": [
+                  "ItemsThatWillBeReclassifiedToProfitAndLoss1"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "xbrli:unit": [
+      {
+        "$": {
+          "id": "INR"
+        },
+        "xbrli:measure": [
+          "iso4217:INR"
+        ]
+      },
+      {
+        "$": {
+          "id": "pure"
+        },
+        "xbrli:measure": [
+          "xbrli:pure"
+        ]
+      },
+      {
+        "$": {
+          "id": "INRPerShare"
+        },
+        "xbrli:divide": [
+          {
+            "xbrli:unitNumerator": [
+              {
+                "xbrli:measure": [
+                  "iso4217:INR"
+                ]
+              }
+            ],
+            "xbrli:unitDenominator": [
+              {
+                "xbrli:measure": [
+                  "xbrli:shares"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "in-bse-fin:ScripCode": [
+      {
+        "_": "500325",
+        "$": {
+          "contextRef": "OneD"
+        }
+      }
+    ],
+    "in-bse-fin:Symbol": [
+      {
+        "_": "RELIANCE",
+        "$": {
+          "contextRef": "OneD"
+        }
+      }
+    ],
+    "in-bse-fin:MSEISymbol": [
+      {
+        "_": "NA",
+        "$": {
+          "contextRef": "OneD"
+        }
+      }
+    ],
+    "in-bse-fin:ISIN": [
+      {
+        "_": "INE002A01018",
+        "$": {
+          "contextRef": "OneD"
+        }
+      }
+    ],
+    "in-bse-fin:NameOfTheCompany": [
+      {
+        "_": "RELIANCE INDUSTRIES LIMITED",
+        "$": {
+          "contextRef": "OneD"
+        }
+      }
+    ],
+    "in-bse-fin:ClassOfSecurity": [
+      {
+        "_": "Equity",
+        "$": {
+          "contextRef": "OneD"
+        }
+      }
+    ],
+    "in-bse-fin:DateOfStartOfFinancialYear": [
+      {
+        "_": "2022-04-01",
+        "$": {
+          "contextRef": "OneD"
+        }
+      }
+    ],
+    "in-bse-fin:DateOfEndOfFinancialYear": [
+      {
+        "_": "2023-03-31",
+        "$": {
+          "contextRef": "OneD"
+        }
+      }
+    ],
+    "in-bse-fin:DateOfBoardMeetingWhenFinancialResultsWereApproved": [
+      {
+        "_": "2022-10-21",
+        "$": {
+          "contextRef": "OneD"
+        }
+      }
+    ],
+    "in-bse-fin:DateOnWhichPriorIntimationOfTheMeetingForConsideringFinancialResultsWasInformedToTheExchange": [
+      {
+        "_": "2022-10-14",
+        "$": {
+          "contextRef": "OneD"
+        }
+      }
+    ],
+    "in-bse-fin:DescriptionOfPresentationCurrency": [
+      {
+        "_": "INR",
+        "$": {
+          "contextRef": "OneD"
+        }
+      }
+    ],
+    "in-bse-fin:LevelOfRoundingUsedInFinancialStatements": [
+      {
+        "_": "Crores",
+        "$": {
+          "contextRef": "OneD"
+        }
+      }
+    ],
+    "in-bse-fin:ReportingQuarter": [
+      {
+        "_": "Half yearly",
+        "$": {
+          "contextRef": "OneD"
+        }
+      }
+    ],
+    "in-bse-fin:IsCompanyReportingMultisegmentOrSingleSegment": [
+      {
+        "_": "Multi segment",
+        "$": {
+          "contextRef": "OneD"
+        }
+      }
+    ],
+    "in-bse-fin:DateOfStartOfBoardMeeting": [
+      {
+        "_": "2022-10-21",
+        "$": {
+          "contextRef": "OneD"
+        }
+      }
+    ],
+    "in-bse-fin:StartTimeOfBoardMeeting": [
+      {
+        "_": "17:00:00",
+        "$": {
+          "contextRef": "OneD"
+        }
+      }
+    ],
+    "in-bse-fin:DateOfEndOfBoardMeeting": [
+      {
+        "_": "2022-10-21",
+        "$": {
+          "contextRef": "OneD"
+        }
+      }
+    ],
+    "in-bse-fin:EndTimeOfBoardMeeting": [
+      {
+        "_": "19:27:00",
+        "$": {
+          "contextRef": "OneD"
+        }
+      }
+    ],
+    "in-bse-fin:WhetherCashFlowStatementIsApplicableOnCompany": [
+      {
+        "_": "true",
+        "$": {
+          "contextRef": "OneD"
+        }
+      }
+    ],
+    "in-bse-fin:TypeOfCashFlowStatement": [
+      {
+        "_": "Cash Flow Indirect",
+        "$": {
+          "contextRef": "OneD"
+        }
+      }
+    ],
+    "in-bse-fin:DeclarationOfUnmodifiedOpinionOrStatementOnImpactOfAuditQualification": [
+      {
+        "_": "Not applicable",
+        "$": {
+          "contextRef": "OneD"
+        }
+      }
+    ],
+    "in-bse-fin:DateOfStartOfReportingPeriod": [
+      {
+        "_": "2022-07-01",
+        "$": {
+          "contextRef": "OneD"
+        }
+      },
+      {
+        "_": "2022-04-01",
+        "$": {
+          "contextRef": "FourD"
+        }
+      }
+    ],
+    "in-bse-fin:DateOfEndOfReportingPeriod": [
+      {
+        "_": "2022-09-30",
+        "$": {
+          "contextRef": "OneD"
+        }
+      },
+      {
+        "_": "2022-09-30",
+        "$": {
+          "contextRef": "FourD"
+        }
+      }
+    ],
+    "in-bse-fin:WhetherResultsAreAuditedOrUnaudited": [
+      {
+        "_": "Unaudited",
+        "$": {
+          "contextRef": "OneD"
+        }
+      },
+      {
+        "_": "Unaudited",
+        "$": {
+          "contextRef": "FourD"
+        }
+      }
+    ],
+    "in-bse-fin:NatureOfReportStandaloneConsolidated": [
+      {
+        "_": "Consolidated",
+        "$": {
+          "contextRef": "OneD"
+        }
+      },
+      {
+        "_": "Consolidated",
+        "$": {
+          "contextRef": "FourD"
+        }
+      }
+    ],
+    "in-bse-fin:RevenueFromOperations": [
+      {
+        "_": "2328630000000",
+        "$": {
+          "contextRef": "OneD",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      },
+      {
+        "_": "4559760000000",
+        "$": {
+          "contextRef": "FourD",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      }
+    ],
+    "in-bse-fin:OtherIncome": [
+      {
+        "_": "35140000000",
+        "$": {
+          "contextRef": "OneD",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      },
+      {
+        "_": "57610000000",
+        "$": {
+          "contextRef": "FourD",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      }
+    ],
+    "in-bse-fin:Income": [
+      {
+        "_": "2363770000000",
+        "$": {
+          "contextRef": "OneD",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      },
+      {
+        "_": "4617370000000",
+        "$": {
+          "contextRef": "FourD",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      }
+    ],
+    "in-bse-fin:CostOfMaterialsConsumed": [
+      {
+        "_": "1169520000000",
+        "$": {
+          "contextRef": "OneD",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      },
+      {
+        "_": "2474800000000",
+        "$": {
+          "contextRef": "FourD",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      }
+    ],
+    "in-bse-fin:PurchasesOfStockInTrade": [
+      {
+        "_": "465380000000",
+        "$": {
+          "contextRef": "OneD",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      },
+      {
+        "_": "837690000000",
+        "$": {
+          "contextRef": "FourD",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      }
+    ],
+    "in-bse-fin:ChangesInInventoriesOfFinishedGoodsWorkInProgressAndStockInTrade": [
+      {
+        "_": "-39190000000",
+        "$": {
+          "contextRef": "OneD",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      },
+      {
+        "_": "-248090000000",
+        "$": {
+          "contextRef": "FourD",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      }
+    ],
+    "in-bse-fin:EmployeeBenefitExpense": [
+      {
+        "_": "61530000000",
+        "$": {
+          "contextRef": "OneD",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      },
+      {
+        "_": "121560000000",
+        "$": {
+          "contextRef": "FourD",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      }
+    ],
+    "in-bse-fin:FinanceCosts": [
+      {
+        "_": "45540000000",
+        "$": {
+          "contextRef": "OneD",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      },
+      {
+        "_": "85510000000",
+        "$": {
+          "contextRef": "FourD",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      }
+    ],
+    "in-bse-fin:DepreciationDepletionAndAmortisationExpense": [
+      {
+        "_": "97300000000",
+        "$": {
+          "contextRef": "OneD",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      },
+      {
+        "_": "186760000000",
+        "$": {
+          "contextRef": "FourD",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      }
+    ],
+    "in-bse-fin:OtherExpenses": [
+      {
+        "_": "359150000000",
+        "$": {
+          "contextRef": "OneD",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      },
+      {
+        "_": "681590000000",
+        "$": {
+          "contextRef": "FourD",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      },
+      {
+        "_": "28080000000",
+        "$": {
+          "contextRef": "OneExpenses1D",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      },
+      {
+        "_": "331070000000",
+        "$": {
+          "contextRef": "OneExpenses2D",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      },
+      {
+        "_": "66170000000",
+        "$": {
+          "contextRef": "FourExpenses1D",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      },
+      {
+        "_": "615420000000",
+        "$": {
+          "contextRef": "FourExpenses2D",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      }
+    ],
+    "in-bse-fin:Expenses": [
+      {
+        "_": "2159230000000",
+        "$": {
+          "contextRef": "OneD",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      },
+      {
+        "_": "4139820000000",
+        "$": {
+          "contextRef": "FourD",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      }
+    ],
+    "in-bse-fin:ProfitBeforeExceptionalItemsAndTax": [
+      {
+        "_": "204540000000",
+        "$": {
+          "contextRef": "OneD",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      },
+      {
+        "_": "477550000000",
+        "$": {
+          "contextRef": "FourD",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      }
+    ],
+    "in-bse-fin:ExceptionalItemsBeforeTax": [
+      {
+        "_": "0",
+        "$": {
+          "contextRef": "OneD",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      },
+      {
+        "_": "0",
+        "$": {
+          "contextRef": "FourD",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      }
+    ],
+    "in-bse-fin:ProfitBeforeTax": [
+      {
+        "_": "204540000000",
+        "$": {
+          "contextRef": "OneD",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      },
+      {
+        "_": "477550000000",
+        "$": {
+          "contextRef": "FourD",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      }
+    ],
+    "in-bse-fin:CurrentTax": [
+      {
+        "_": "24950000000",
+        "$": {
+          "contextRef": "OneD",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      },
+      {
+        "_": "67610000000",
+        "$": {
+          "contextRef": "FourD",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      }
+    ],
+    "in-bse-fin:DeferredTax": [
+      {
+        "_": "23720000000",
+        "$": {
+          "contextRef": "OneD",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      },
+      {
+        "_": "58990000000",
+        "$": {
+          "contextRef": "FourD",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      }
+    ],
+    "in-bse-fin:TaxExpense": [
+      {
+        "_": "48670000000",
+        "$": {
+          "contextRef": "OneD",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      },
+      {
+        "_": "126600000000",
+        "$": {
+          "contextRef": "FourD",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      }
+    ],
+    "in-bse-fin:NetMovementInRegulatoryDeferralAccountBalancesRelatedToProfitOrLossAndTheRelatedDeferredTaxMovement": [
+      {
+        "_": "0",
+        "$": {
+          "contextRef": "OneD",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      },
+      {
+        "_": "0",
+        "$": {
+          "contextRef": "FourD",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      }
+    ],
+    "in-bse-fin:ProfitLossForPeriodFromContinuingOperations": [
+      {
+        "_": "155870000000",
+        "$": {
+          "contextRef": "OneD",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      },
+      {
+        "_": "350950000000",
+        "$": {
+          "contextRef": "FourD",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      }
+    ],
+    "in-bse-fin:ProfitLossFromDiscontinuedOperationsBeforeTax": [
+      {
+        "_": "0",
+        "$": {
+          "contextRef": "OneD",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      },
+      {
+        "_": "0",
+        "$": {
+          "contextRef": "FourD",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      }
+    ],
+    "in-bse-fin:TaxExpenseOfDiscontinuedOperations": [
+      {
+        "_": "0",
+        "$": {
+          "contextRef": "OneD",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      },
+      {
+        "_": "0",
+        "$": {
+          "contextRef": "FourD",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      }
+    ],
+    "in-bse-fin:ProfitLossFromDiscontinuedOperationsAfterTax": [
+      {
+        "_": "0",
+        "$": {
+          "contextRef": "OneD",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      },
+      {
+        "_": "0",
+        "$": {
+          "contextRef": "FourD",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      }
+    ],
+    "in-bse-fin:ShareOfProfitLossOfAssociatesAndJointVenturesAccountedForUsingEquityMethod": [
+      {
+        "_": "-750000000",
+        "$": {
+          "contextRef": "OneD",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      },
+      {
+        "_": "-1400000000",
+        "$": {
+          "contextRef": "FourD",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      }
+    ],
+    "in-bse-fin:ProfitLossForPeriod": [
+      {
+        "_": "155120000000",
+        "$": {
+          "contextRef": "OneD",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      },
+      {
+        "_": "349550000000",
+        "$": {
+          "contextRef": "FourD",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      }
+    ],
+    "in-bse-fin:OtherComprehensiveIncomeNetOfTaxes": [
+      {
+        "_": "-95580000000",
+        "$": {
+          "contextRef": "OneD",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      },
+      {
+        "_": "-160720000000",
+        "$": {
+          "contextRef": "FourD",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      }
+    ],
+    "in-bse-fin:ComprehensiveIncomeForThePeriod": [
+      {
+        "_": "59540000000",
+        "$": {
+          "contextRef": "OneD",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      },
+      {
+        "_": "188830000000",
+        "$": {
+          "contextRef": "FourD",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      }
+    ],
+    "in-bse-fin:ProfitOrLossAttributableToOwnersOfParent": [
+      {
+        "_": "136560000000",
+        "$": {
+          "contextRef": "OneD",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      },
+      {
+        "_": "316110000000",
+        "$": {
+          "contextRef": "FourD",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      }
+    ],
+    "in-bse-fin:ProfitOrLossAttributableToNonControllingInterests": [
+      {
+        "_": "18560000000",
+        "$": {
+          "contextRef": "OneD",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      },
+      {
+        "_": "33440000000",
+        "$": {
+          "contextRef": "FourD",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      }
+    ],
+    "in-bse-fin:ComprehensiveIncomeForThePeriodAttributableToOwnersOfParent": [
+      {
+        "_": "40950000000",
+        "$": {
+          "contextRef": "OneD",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      },
+      {
+        "_": "155760000000",
+        "$": {
+          "contextRef": "FourD",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      }
+    ],
+    "in-bse-fin:ComprehensiveIncomeForThePeriodAttributableToOwnersOfParentNonControllingInterests": [
+      {
+        "_": "18590000000",
+        "$": {
+          "contextRef": "OneD",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      },
+      {
+        "_": "33070000000",
+        "$": {
+          "contextRef": "FourD",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      }
+    ],
+    "in-bse-fin:PaidUpValueOfEquityShareCapital": [
+      {
+        "_": "67660000000",
+        "$": {
+          "contextRef": "OneD",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      },
+      {
+        "_": "67660000000",
+        "$": {
+          "contextRef": "FourD",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      }
+    ],
+    "in-bse-fin:FaceValueOfEquityShareCapital": [
+      {
+        "_": "10",
+        "$": {
+          "contextRef": "OneD",
+          "unitRef": "INRPerShare",
+          "decimals": "INF"
+        }
+      },
+      {
+        "_": "10",
+        "$": {
+          "contextRef": "FourD",
+          "unitRef": "INRPerShare",
+          "decimals": "INF"
+        }
+      }
+    ],
+    "in-bse-fin:BasicEarningsLossPerShareFromContinuingOperations": [
+      {
+        "_": "20.18",
+        "$": {
+          "contextRef": "OneD",
+          "unitRef": "INRPerShare",
+          "decimals": "INF"
+        }
+      },
+      {
+        "_": "46.72",
+        "$": {
+          "contextRef": "FourD",
+          "unitRef": "INRPerShare",
+          "decimals": "INF"
+        }
+      }
+    ],
+    "in-bse-fin:DilutedEarningsLossPerShareFromContinuingOperations": [
+      {
+        "_": "20.18",
+        "$": {
+          "contextRef": "OneD",
+          "unitRef": "INRPerShare",
+          "decimals": "INF"
+        }
+      },
+      {
+        "_": "46.72",
+        "$": {
+          "contextRef": "FourD",
+          "unitRef": "INRPerShare",
+          "decimals": "INF"
+        }
+      }
+    ],
+    "in-bse-fin:BasicEarningsLossPerShareFromDiscontinuedOperations": [
+      {
+        "_": "0",
+        "$": {
+          "contextRef": "OneD",
+          "unitRef": "INRPerShare",
+          "decimals": "INF"
+        }
+      },
+      {
+        "_": "0",
+        "$": {
+          "contextRef": "FourD",
+          "unitRef": "INRPerShare",
+          "decimals": "INF"
+        }
+      }
+    ],
+    "in-bse-fin:DilutedEarningsLossPerShareFromDiscontinuedOperations": [
+      {
+        "_": "0",
+        "$": {
+          "contextRef": "OneD",
+          "unitRef": "INRPerShare",
+          "decimals": "INF"
+        }
+      },
+      {
+        "_": "0",
+        "$": {
+          "contextRef": "FourD",
+          "unitRef": "INRPerShare",
+          "decimals": "INF"
+        }
+      }
+    ],
+    "in-bse-fin:BasicEarningsLossPerShareFromContinuingAndDiscontinuedOperations": [
+      {
+        "_": "20.18",
+        "$": {
+          "contextRef": "OneD",
+          "unitRef": "INRPerShare",
+          "decimals": "INF"
+        }
+      },
+      {
+        "_": "46.72",
+        "$": {
+          "contextRef": "FourD",
+          "unitRef": "INRPerShare",
+          "decimals": "INF"
+        }
+      }
+    ],
+    "in-bse-fin:DilutedEarningsLossPerShareFromContinuingAndDiscontinuedOperations": [
+      {
+        "_": "20.18",
+        "$": {
+          "contextRef": "OneD",
+          "unitRef": "INRPerShare",
+          "decimals": "INF"
+        }
+      },
+      {
+        "_": "46.72",
+        "$": {
+          "contextRef": "FourD",
+          "unitRef": "INRPerShare",
+          "decimals": "INF"
+        }
+      }
+    ],
+    "in-bse-fin:DebtEquityRatio": [
+      {
+        "_": "0.0037",
+        "$": {
+          "contextRef": "OneD",
+          "unitRef": "pure",
+          "decimals": "INF"
+        }
+      },
+      {
+        "_": "0.0037",
+        "$": {
+          "contextRef": "FourD",
+          "unitRef": "pure",
+          "decimals": "INF"
+        }
+      }
+    ],
+    "in-bse-fin:DebtServiceCoverageRatio": [
+      {
+        "_": "0.0199",
+        "$": {
+          "contextRef": "OneD",
+          "unitRef": "pure",
+          "decimals": "INF"
+        }
+      },
+      {
+        "_": "0.028",
+        "$": {
+          "contextRef": "FourD",
+          "unitRef": "pure",
+          "decimals": "INF"
+        }
+      }
+    ],
+    "in-bse-fin:InterestServiceCoverageRatio": [
+      {
+        "_": "0.0547",
+        "$": {
+          "contextRef": "OneD",
+          "unitRef": "pure",
+          "decimals": "INF"
+        }
+      },
+      {
+        "_": "0.0657",
+        "$": {
+          "contextRef": "FourD",
+          "unitRef": "pure",
+          "decimals": "INF"
+        }
+      }
+    ],
+    "in-bse-fin:DisclosureOfNotesOnFinancialResultsExplanatoryTextBlock": [
+      {
+        "_": "Notes to Financial Results: <BR> \r\n <BR> \r\n1. . Formulae for computation of ratios are as follows :  <BR> \r\n <BR> \r\n   i. Debt Service Coverage Ratio      =        Earnings before Interest, Tax and exceptional Items <BR> \r\n                                                                ------------------------------------------------------------------------ <BR> \r\n                                                                 Interest Expense + Principal Repayments made during                             <BR> \r\n                                                                 the period for long term loans   <BR> \r\n <BR> \r\n   ii. Interest Service Coverage Ratio =        Earnings before Interest, Tax and exceptional Items <BR> \r\n                                                                ----------------------------------------------------------------------- <BR> \r\n                                                                 Interest Expense <BR> \r\n <BR> \r\n   iii. Debt/ Equity Ratio     =                      Total Debt <BR> \r\n                                                                ------------------ <BR> \r\n                                                                 Total Equity <BR> \r\n <BR> \r\n <BR> \r\n   iv. Current ratio      =                              Current Assets <BR> \r\n                                                                --------------------- <BR> \r\n                                                                 Current Liabilities  <BR> \r\n <BR> \r\n   v. Long term debt to working capital =     Non-Current Borrowings (Including Current Maturities of <BR> \r\n                                                                 Non-Current Borrowings) <BR> \r\n                                                                ----------------------------------------------------------------------- <BR> \r\n                                                                 Current Assets Less Current Liabilities (Excluding Current <BR> \r\n                                                                 Maturities of Non-Current Borrowings) <BR> \r\n <BR> \r\n   vi. Bad debts to Account receivable  =     Bad Debts <BR> \r\n        ratio                                                  ------------------ <BR> \r\n                                                                 Average Trade Receivables <BR> \r\n <BR> \r\n <BR> \r\n   vii. Current liability ratio      =                  Total Current Liabilities <BR> \r\n                                                                ------------------------------------------------------------------------ <BR> \r\n                                                                 Total Liabilities   <BR> \r\n <BR> \r\n   viii. Total debts to total assets =             Total Debt <BR> \r\n                                                                ----------------- <BR> \r\n                                                                 Total Assets <BR> \r\n <BR> \r\n   ix. Debtors turnover =                             Value of Sales & Services <BR> \r\n                                                                ---------------------------------- <BR> \r\n                                                                 Average Trade Receivables <BR> \r\n <BR> \r\n   x. Inventory turnover =                            Cost of Goods Sold (Cost of Material Consumed+ Purchases + <BR> \r\n                                                                  Changes in Inventory + Manufacturing Expenses) <BR> \r\n                                                                ---------------------------------- <BR> \r\n                                                                 Average Inventories of Finished Goods, Stock-in-Process and  <BR> \r\n                                                                 Stock-in-Trade <BR> \r\n <BR> \r\n <BR> \r\n   xi. Operating margin (%) =                     Earnings before Interest, Tax and Exceptional Items <BR> \r\n                                                                 less Other Income <BR> \r\n                                                                ---------------------------------- <BR> \r\n                                                                 Value of Sales & Services  <BR> \r\n <BR> \r\n <BR> \r\n   xii. Net profit margin (%) =                     Profit After Tax (after exceptional items) <BR> \r\n                                                                ------------------------------------------------------- <BR> \r\n                                                                 Value of Sales & Services <BR> \r\n <BR> \r\n <BR> \r\n <BR> \r\nNotes to Cash Flow: <BR> \r\n <BR> \r\n1. Changes in Trade and Other Receivables have been shown under Adjustments for decrease / (increase) in trade receivables, current. <BR> \r\n <BR> \r\n2. Changes in Trade and Other Payables have been shown under Adjustments for increase / (decrease) in trade payables, current. <BR> \r\n <BR> \r\n3. Cash and Cash equivalents at the beginning of the period includes Rs 124 crore due to addition of subsidiaries. <BR> \r\n <BR> \r\n <BR> \r\n <BR> \r\n",
+        "$": {
+          "contextRef": "OneD"
+        }
+      }
+    ],
+    "in-bse-fin:DescriptionOfOtherExpenses": [
+      {
+        "_": "Excise Duty",
+        "$": {
+          "contextRef": "OneExpenses1D"
+        }
+      },
+      {
+        "_": "Other Expenses",
+        "$": {
+          "contextRef": "OneExpenses2D"
+        }
+      },
+      {
+        "_": "Excise Duty",
+        "$": {
+          "contextRef": "FourExpenses1D"
+        }
+      },
+      {
+        "_": "Other Expenses",
+        "$": {
+          "contextRef": "FourExpenses2D"
+        }
+      }
+    ],
+    "in-bse-fin:PropertyPlantAndEquipment": [
+      {
+        "_": "5205730000000",
+        "$": {
+          "contextRef": "OneI",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      }
+    ],
+    "in-bse-fin:CapitalWorkInProgress": [
+      {
+        "_": "821990000000",
+        "$": {
+          "contextRef": "OneI",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      }
+    ],
+    "in-bse-fin:InvestmentProperty": [
+      {
+        "_": "0",
+        "$": {
+          "contextRef": "OneI",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      }
+    ],
+    "in-bse-fin:Goodwill": [
+      {
+        "_": "130010000000",
+        "$": {
+          "contextRef": "OneI",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      }
+    ],
+    "in-bse-fin:OtherIntangibleAssets": [
+      {
+        "_": "1127490000000",
+        "$": {
+          "contextRef": "OneI",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      }
+    ],
+    "in-bse-fin:IntangibleAssetsUnderDevelopment": [
+      {
+        "_": "2098910000000",
+        "$": {
+          "contextRef": "OneI",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      }
+    ],
+    "in-bse-fin:BiologicalAssetsOtherThanBearerPlants": [
+      {
+        "_": "0",
+        "$": {
+          "contextRef": "OneI",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      }
+    ],
+    "in-bse-fin:InvestmentsAccountedForUsingEquityMethod": [
+      {
+        "_": "0",
+        "$": {
+          "contextRef": "OneI",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      }
+    ],
+    "in-bse-fin:NoncurrentInvestments": [
+      {
+        "_": "2751080000000",
+        "$": {
+          "contextRef": "OneI",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      }
+    ],
+    "in-bse-fin:TradeReceivablesNoncurrent": [
+      {
+        "_": "0",
+        "$": {
+          "contextRef": "OneI",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      }
+    ],
+    "in-bse-fin:LoansNoncurrent": [
+      {
+        "_": "15780000000",
+        "$": {
+          "contextRef": "OneI",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      }
+    ],
+    "in-bse-fin:OtherNoncurrentFinancialAssets": [
+      {
+        "_": "24780000000",
+        "$": {
+          "contextRef": "OneI",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      }
+    ],
+    "in-bse-fin:NoncurrentFinancialAssets": [
+      {
+        "_": "2791640000000",
+        "$": {
+          "contextRef": "OneI",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      }
+    ],
+    "in-bse-fin:DeferredTaxAssetsNet": [
+      {
+        "_": "7410000000",
+        "$": {
+          "contextRef": "OneI",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      }
+    ],
+    "in-bse-fin:OtherNoncurrentAssets": [
+      {
+        "_": "570950000000",
+        "$": {
+          "contextRef": "OneI",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      }
+    ],
+    "in-bse-fin:NoncurrentAssets": [
+      {
+        "_": "12754130000000",
+        "$": {
+          "contextRef": "OneI",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      }
+    ],
+    "in-bse-fin:Inventories": [
+      {
+        "_": "1328170000000",
+        "$": {
+          "contextRef": "OneI",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      }
+    ],
+    "in-bse-fin:CurrentInvestments": [
+      {
+        "_": "700050000000",
+        "$": {
+          "contextRef": "OneI",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      }
+    ],
+    "in-bse-fin:TradeReceivablesCurrent": [
+      {
+        "_": "258360000000",
+        "$": {
+          "contextRef": "OneI",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      }
+    ],
+    "in-bse-fin:CashAndCashEquivalents": [
+      {
+        "_": "482580000000",
+        "$": {
+          "contextRef": "OneI",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      }
+    ],
+    "in-bse-fin:BankBalanceOtherThanCashAndCashEquivalents": [
+      {
+        "_": "0",
+        "$": {
+          "contextRef": "OneI",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      }
+    ],
+    "in-bse-fin:LoansCurrent": [
+      {
+        "_": "2510000000",
+        "$": {
+          "contextRef": "OneI",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      }
+    ],
+    "in-bse-fin:OtherCurrentFinancialAssets": [
+      {
+        "_": "247330000000",
+        "$": {
+          "contextRef": "OneI",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      }
+    ],
+    "in-bse-fin:CurrentFinancialAssets": [
+      {
+        "_": "1690830000000",
+        "$": {
+          "contextRef": "OneI",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      }
+    ],
+    "in-bse-fin:CurrentTaxAssets": [
+      {
+        "_": "0",
+        "$": {
+          "contextRef": "OneI",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      }
+    ],
+    "in-bse-fin:OtherCurrentAssets": [
+      {
+        "_": "486110000000",
+        "$": {
+          "contextRef": "OneI",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      }
+    ],
+    "in-bse-fin:CurrentAssets": [
+      {
+        "_": "3505110000000",
+        "$": {
+          "contextRef": "OneI",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      }
+    ],
+    "in-bse-fin:NoncurrentAssetsClassifiedAsHeldForSale": [
+      {
+        "_": "0",
+        "$": {
+          "contextRef": "OneI",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      }
+    ],
+    "in-bse-fin:RegulatoryDeferralAccountDebitBalancesAndRelatedDeferredTaxAssets": [
+      {
+        "_": "0",
+        "$": {
+          "contextRef": "OneI",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      }
+    ],
+    "in-bse-fin:Assets": [
+      {
+        "_": "16259240000000",
+        "$": {
+          "contextRef": "OneI",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      }
+    ],
+    "in-bse-fin:EquityShareCapital": [
+      {
+        "_": "67660000000",
+        "$": {
+          "contextRef": "OneI",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      }
+    ],
+    "in-bse-fin:OtherEquity": [
+      {
+        "_": "7832830000000",
+        "$": {
+          "contextRef": "OneI",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      }
+    ],
+    "in-bse-fin:EquityAttributableToOwnersOfParent": [
+      {
+        "_": "7900490000000",
+        "$": {
+          "contextRef": "OneI",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      }
+    ],
+    "in-bse-fin:NonControllingInterest": [
+      {
+        "_": "1127160000000",
+        "$": {
+          "contextRef": "OneI",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      }
+    ],
+    "in-bse-fin:Equity": [
+      {
+        "_": "9027650000000",
+        "$": {
+          "contextRef": "OneI",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      }
+    ],
+    "in-bse-fin:BorrowingsNoncurrent": [
+      {
+        "_": "1783940000000",
+        "$": {
+          "contextRef": "OneI",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      }
+    ],
+    "in-bse-fin:TradePayablesNoncurrent": [
+      {
+        "_": "0",
+        "$": {
+          "contextRef": "OneI",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      }
+    ],
+    "in-bse-fin:OtherNoncurrentFinancialLiabilities": [
+      {
+        "_": "1419240000000",
+        "$": {
+          "contextRef": "OneI",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      }
+    ],
+    "in-bse-fin:NoncurrentFinancialLiabilities": [
+      {
+        "_": "3203180000000",
+        "$": {
+          "contextRef": "OneI",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      }
+    ],
+    "in-bse-fin:ProvisionsNoncurrent": [
+      {
+        "_": "15030000000",
+        "$": {
+          "contextRef": "OneI",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      }
+    ],
+    "in-bse-fin:DeferredTaxLiabilitiesNet": [
+      {
+        "_": "537120000000",
+        "$": {
+          "contextRef": "OneI",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      }
+    ],
+    "in-bse-fin:DeferredGovernmentGrantsNoncurrent": [
+      {
+        "_": "0",
+        "$": {
+          "contextRef": "OneI",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      }
+    ],
+    "in-bse-fin:OtherNoncurrentLiabilities": [
+      {
+        "_": "6380000000",
+        "$": {
+          "contextRef": "OneI",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      }
+    ],
+    "in-bse-fin:NoncurrentLiabilities": [
+      {
+        "_": "3761710000000",
+        "$": {
+          "contextRef": "OneI",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      }
+    ],
+    "in-bse-fin:BorrowingsCurrent": [
+      {
+        "_": "1164650000000",
+        "$": {
+          "contextRef": "OneI",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      }
+    ],
+    "in-bse-fin:TradePayablesCurrent": [
+      {
+        "_": "1507110000000",
+        "$": {
+          "contextRef": "OneI",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      }
+    ],
+    "in-bse-fin:OtherCurrentFinancialLiabilities": [
+      {
+        "_": "553570000000",
+        "$": {
+          "contextRef": "OneI",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      }
+    ],
+    "in-bse-fin:CurrentFinancialLiabilities": [
+      {
+        "_": "3225330000000",
+        "$": {
+          "contextRef": "OneI",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      }
+    ],
+    "in-bse-fin:OtherCurrentLiabilities": [
+      {
+        "_": "222090000000",
+        "$": {
+          "contextRef": "OneI",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      }
+    ],
+    "in-bse-fin:ProvisionsCurrent": [
+      {
+        "_": "22460000000",
+        "$": {
+          "contextRef": "OneI",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      }
+    ],
+    "in-bse-fin:CurrentTaxLiabilities": [
+      {
+        "_": "0",
+        "$": {
+          "contextRef": "OneI",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      }
+    ],
+    "in-bse-fin:DeferredGovernmentGrantsCurrent": [
+      {
+        "_": "0",
+        "$": {
+          "contextRef": "OneI",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      }
+    ],
+    "in-bse-fin:CurrentLiabilities": [
+      {
+        "_": "3469880000000",
+        "$": {
+          "contextRef": "OneI",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      }
+    ],
+    "in-bse-fin:LiabilitiesDirectlyAssociatedWithAssetsInDisposalGroupClassifiedAsHeldForSale": [
+      {
+        "_": "0",
+        "$": {
+          "contextRef": "OneI",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      }
+    ],
+    "in-bse-fin:RegulatoryDeferralAccountCreditBalancesAndRelatedDeferredTaxLiability": [
+      {
+        "_": "0",
+        "$": {
+          "contextRef": "OneI",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      }
+    ],
+    "in-bse-fin:Liabilities": [
+      {
+        "_": "7231590000000",
+        "$": {
+          "contextRef": "OneI",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      }
+    ],
+    "in-bse-fin:EquityAndLiabilities": [
+      {
+        "_": "16259240000000",
+        "$": {
+          "contextRef": "OneI",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      }
+    ],
+    "in-bse-fin:DisclosureOfNotesOnAssetsAndLiabilitiesExplanatoryTextBlock": [
+      {
+        "_": "1. Other non current financial liabilities include Lease Liabilities of Rs. 17,160 Crore and Deferred Payment Liabilities of Rs. 115,167 Crore. <BR> \r\n <BR> \r\n2. Other current financial liabilities include Lease Liabilities of Rs. 4,011 Crore. <BR> \r\n <BR> \r\n3. Net Worth as at 30th September 2022 is Rs. 671,726 Crore. <BR> \r\n <BR> \r\n4. Outstanding Capital Redemption Reserve/Debenture Redemption Reserve as at 30th September 2022 is Rs. 3,494 Crore. <BR> \r\n <BR> \r\n5. Further, the following ratios which form part of the Consolidated Financial Results for the quarter and half year ended 30th September, 2022, are reproduced below, as there are no rows designated for the same in the XBRL format: <BR> \r\n <BR> \r\n                Ratio                                                               Quarter ended                   Half Year ended  <BR> \r\n                                                                                  30th September, 2022          30th September, 2022 <BR> \r\n <BR> \r\nA)\tCurrent ratio                                                             1.01                                   1.01 <BR> \r\nB)\tLong Term Debt to Working Capital                           5.10                                  5.10 <BR> \r\nC)\tBad Debts to Account Receivable Ratio                    0.00                                   0.00           <BR> \r\nD)\tCurrent Liability Ratio                                                0.48                                   0.48 <BR> \r\nE)\tTotal Debt to Total Assets                                         0.18                                  0.18 <BR> \r\nF)\tDebtors Turnover Ratio $                                          39.80                                40.14 <BR> \r\nG)\tInventory Turnover Ratio $                                       7.00                                  7.48           <BR> \r\nH)\tOperating Margin (%)                                                8.4                                    10.2 <BR> \r\n I)\tNet Profit Margin (%) *                                              6.1                                    7.0 <BR> \r\n <BR> \r\n                $ Ratios for the quarter / half year have been annualised. <BR> \r\n                * Includes Exceptional Items.",
+        "$": {
+          "contextRef": "OneD"
+        }
+      }
+    ],
+    "in-bse-fin:DescriptionOfReportableSegment": [
+      {
+        "_": "Oil to Chemicals (O2C)",
+        "$": {
+          "contextRef": "OneReportable1D"
+        }
+      },
+      {
+        "_": "Oil and Gas",
+        "$": {
+          "contextRef": "OneReportable2D"
+        }
+      },
+      {
+        "_": "Retail",
+        "$": {
+          "contextRef": "OneReportable3D"
+        }
+      },
+      {
+        "_": "Digital Services",
+        "$": {
+          "contextRef": "OneReportable4D"
+        }
+      },
+      {
+        "_": "Financial Services",
+        "$": {
+          "contextRef": "OneReportable5D"
+        }
+      },
+      {
+        "_": "Others",
+        "$": {
+          "contextRef": "OneReportable6D"
+        }
+      },
+      {
+        "_": "Oil to Chemicals (O2C)",
+        "$": {
+          "contextRef": "FourReportable1D"
+        }
+      },
+      {
+        "_": "Oil and Gas",
+        "$": {
+          "contextRef": "FourReportable2D"
+        }
+      },
+      {
+        "_": "Retail",
+        "$": {
+          "contextRef": "FourReportable3D"
+        }
+      },
+      {
+        "_": "Digital Services",
+        "$": {
+          "contextRef": "FourReportable4D"
+        }
+      },
+      {
+        "_": "Financial Services",
+        "$": {
+          "contextRef": "FourReportable5D"
+        }
+      },
+      {
+        "_": "Others",
+        "$": {
+          "contextRef": "FourReportable6D"
+        }
+      },
+      {
+        "_": "Oil to Chemicals (O2C)",
+        "$": {
+          "contextRef": "OneReportableFinance1D"
+        }
+      },
+      {
+        "_": "Oil and Gas",
+        "$": {
+          "contextRef": "OneReportableFinance2D"
+        }
+      },
+      {
+        "_": "Retail",
+        "$": {
+          "contextRef": "OneReportableFinance3D"
+        }
+      },
+      {
+        "_": "Digital Services",
+        "$": {
+          "contextRef": "OneReportableFinance4D"
+        }
+      },
+      {
+        "_": "Financial Services",
+        "$": {
+          "contextRef": "OneReportableFinance5D"
+        }
+      },
+      {
+        "_": "Others",
+        "$": {
+          "contextRef": "OneReportableFinance6D"
+        }
+      },
+      {
+        "_": "Oil to Chemicals (O2C)",
+        "$": {
+          "contextRef": "FourReportableFinance1D"
+        }
+      },
+      {
+        "_": "Oil and Gas",
+        "$": {
+          "contextRef": "FourReportableFinance2D"
+        }
+      },
+      {
+        "_": "Retail",
+        "$": {
+          "contextRef": "FourReportableFinance3D"
+        }
+      },
+      {
+        "_": "Digital Services",
+        "$": {
+          "contextRef": "FourReportableFinance4D"
+        }
+      },
+      {
+        "_": "Financial Services",
+        "$": {
+          "contextRef": "FourReportableFinance5D"
+        }
+      },
+      {
+        "_": "Others",
+        "$": {
+          "contextRef": "FourReportableFinance6D"
+        }
+      },
+      {
+        "_": "Oil to Chemicals (O2C)",
+        "$": {
+          "contextRef": "OneReportable31D"
+        }
+      },
+      {
+        "_": "Oil and Gas",
+        "$": {
+          "contextRef": "OneReportable32D"
+        }
+      },
+      {
+        "_": "Retail",
+        "$": {
+          "contextRef": "OneReportable33D"
+        }
+      },
+      {
+        "_": "Digital Services",
+        "$": {
+          "contextRef": "OneReportable34D"
+        }
+      },
+      {
+        "_": "Financial Services",
+        "$": {
+          "contextRef": "OneReportable35D"
+        }
+      },
+      {
+        "_": "Others",
+        "$": {
+          "contextRef": "OneReportable36D"
+        }
+      },
+      {
+        "_": "Oil to Chemicals (O2C)",
+        "$": {
+          "contextRef": "OneReportable41D"
+        }
+      },
+      {
+        "_": "Oil and Gas",
+        "$": {
+          "contextRef": "OneReportable42D"
+        }
+      },
+      {
+        "_": "Retail",
+        "$": {
+          "contextRef": "OneReportable43D"
+        }
+      },
+      {
+        "_": "Digital Services",
+        "$": {
+          "contextRef": "OneReportable44D"
+        }
+      },
+      {
+        "_": "Financial Services",
+        "$": {
+          "contextRef": "OneReportable45D"
+        }
+      },
+      {
+        "_": "Others",
+        "$": {
+          "contextRef": "OneReportable46D"
+        }
+      }
+    ],
+    "in-bse-fin:SegmentRevenue": [
+      {
+        "_": "1596710000000",
+        "$": {
+          "contextRef": "OneReportable1D",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      },
+      {
+        "_": "38530000000",
+        "$": {
+          "contextRef": "OneReportable2D",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      },
+      {
+        "_": "649360000000",
+        "$": {
+          "contextRef": "OneReportable3D",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      },
+      {
+        "_": "295580000000",
+        "$": {
+          "contextRef": "OneReportable4D",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      },
+      {
+        "_": "2130000000",
+        "$": {
+          "contextRef": "OneReportable5D",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      },
+      {
+        "_": "214300000000",
+        "$": {
+          "contextRef": "OneReportable6D",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      },
+      {
+        "_": "3213860000000",
+        "$": {
+          "contextRef": "FourReportable1D",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      },
+      {
+        "_": "74780000000",
+        "$": {
+          "contextRef": "FourReportable2D",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      },
+      {
+        "_": "1235050000000",
+        "$": {
+          "contextRef": "FourReportable3D",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      },
+      {
+        "_": "580690000000",
+        "$": {
+          "contextRef": "FourReportable4D",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      },
+      {
+        "_": "4840000000",
+        "$": {
+          "contextRef": "FourReportable5D",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      },
+      {
+        "_": "369520000000",
+        "$": {
+          "contextRef": "FourReportable6D",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      },
+      {
+        "_": "2796610000000",
+        "$": {
+          "contextRef": "OneD",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      },
+      {
+        "_": "5478740000000",
+        "$": {
+          "contextRef": "FourD",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      }
+    ],
+    "in-bse-fin:InterSegmentRevenue": [
+      {
+        "_": "261640000000",
+        "$": {
+          "contextRef": "OneD",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      },
+      {
+        "_": "513950000000",
+        "$": {
+          "contextRef": "FourD",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      }
+    ],
+    "in-bse-fin:SegmentRevenueFromOperations": [
+      {
+        "_": "2534970000000",
+        "$": {
+          "contextRef": "OneD",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      },
+      {
+        "_": "4964790000000",
+        "$": {
+          "contextRef": "FourD",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      }
+    ],
+    "in-bse-fin:SegmentProfitLossBeforeTaxAndFinanceCosts": [
+      {
+        "_": "97820000000",
+        "$": {
+          "contextRef": "OneReportableFinance1D",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      },
+      {
+        "_": "25100000000",
+        "$": {
+          "contextRef": "OneReportableFinance2D",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      },
+      {
+        "_": "35400000000",
+        "$": {
+          "contextRef": "OneReportableFinance3D",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      },
+      {
+        "_": "73490000000",
+        "$": {
+          "contextRef": "OneReportableFinance4D",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      },
+      {
+        "_": "840000000",
+        "$": {
+          "contextRef": "OneReportableFinance5D",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      },
+      {
+        "_": "3760000000",
+        "$": {
+          "contextRef": "OneReportableFinance6D",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      },
+      {
+        "_": "277980000000",
+        "$": {
+          "contextRef": "FourReportableFinance1D",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      },
+      {
+        "_": "45990000000",
+        "$": {
+          "contextRef": "FourReportableFinance2D",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      },
+      {
+        "_": "65350000000",
+        "$": {
+          "contextRef": "FourReportableFinance3D",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      },
+      {
+        "_": "143850000000",
+        "$": {
+          "contextRef": "FourReportableFinance4D",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      },
+      {
+        "_": "1830000000",
+        "$": {
+          "contextRef": "FourReportableFinance5D",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      },
+      {
+        "_": "8500000000",
+        "$": {
+          "contextRef": "FourReportableFinance6D",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      },
+      {
+        "_": "236410000000",
+        "$": {
+          "contextRef": "OneD",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      },
+      {
+        "_": "543500000000",
+        "$": {
+          "contextRef": "FourD",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      }
+    ],
+    "in-bse-fin:SegmentFinanceCosts": [
+      {
+        "_": "45540000000",
+        "$": {
+          "contextRef": "OneD",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      },
+      {
+        "_": "85510000000",
+        "$": {
+          "contextRef": "FourD",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      }
+    ],
+    "in-bse-fin:OtherUnallocableExpenditureNetOffUnAllocableIncome": [
+      {
+        "_": "-12920000000",
+        "$": {
+          "contextRef": "OneD",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      },
+      {
+        "_": "-18160000000",
+        "$": {
+          "contextRef": "FourD",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      }
+    ],
+    "in-bse-fin:SegmentProfitBeforeTax": [
+      {
+        "_": "203790000000",
+        "$": {
+          "contextRef": "OneD",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      },
+      {
+        "_": "476150000000",
+        "$": {
+          "contextRef": "FourD",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      }
+    ],
+    "in-bse-fin:SegmentAssets": [
+      {
+        "_": "3805240000000",
+        "$": {
+          "contextRef": "OneReportable31I",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      },
+      {
+        "_": "364040000000",
+        "$": {
+          "contextRef": "OneReportable32I",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      },
+      {
+        "_": "1407870000000",
+        "$": {
+          "contextRef": "OneReportable33I",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      },
+      {
+        "_": "4745280000000",
+        "$": {
+          "contextRef": "OneReportable34I",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      },
+      {
+        "_": "954160000000",
+        "$": {
+          "contextRef": "OneReportable35I",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      },
+      {
+        "_": "1966370000000",
+        "$": {
+          "contextRef": "OneReportable36I",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      },
+      {
+        "_": "13242960000000",
+        "$": {
+          "contextRef": "OneI",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      }
+    ],
+    "in-bse-fin:UnAllocableAssets": [
+      {
+        "_": "3090020000000",
+        "$": {
+          "contextRef": "OneI",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      }
+    ],
+    "in-bse-fin:NetSegmentAssets": [
+      {
+        "_": "16332980000000",
+        "$": {
+          "contextRef": "OneI",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      }
+    ],
+    "in-bse-fin:SegmentLiabilities": [
+      {
+        "_": "572030000000",
+        "$": {
+          "contextRef": "OneReportable41I",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      },
+      {
+        "_": "78110000000",
+        "$": {
+          "contextRef": "OneReportable42I",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      },
+      {
+        "_": "512500000000",
+        "$": {
+          "contextRef": "OneReportable43I",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      },
+      {
+        "_": "2047830000000",
+        "$": {
+          "contextRef": "OneReportable44I",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      },
+      {
+        "_": "300000000",
+        "$": {
+          "contextRef": "OneReportable45I",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      },
+      {
+        "_": "283930000000",
+        "$": {
+          "contextRef": "OneReportable46I",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      },
+      {
+        "_": "3494700000000",
+        "$": {
+          "contextRef": "OneI",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      }
+    ],
+    "in-bse-fin:UnAllocableLiabilities": [
+      {
+        "_": "12838280000000",
+        "$": {
+          "contextRef": "OneI",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      }
+    ],
+    "in-bse-fin:NetSegmentLiabilities": [
+      {
+        "_": "16332980000000",
+        "$": {
+          "contextRef": "OneI",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      }
+    ],
+    "in-bse-fin:DisclosureOfNotesOnSegmentsExplanatoryTextBlock": [
+      {
+        "_": "1. Q2 FY23 Segment Revenue includes Rs 20,634 crore GST recovered. Net Revenue is Rs 232,863 crore. <BR> \r\n <BR> \r\n2. H1 FY23 Segment Revenue includes Rs 40,503 crore GST recovered. Net Revenue is Rs 455,976 crore. <BR> \r\n <BR> \r\n3. Oil to Chemicals (O2C), Retail and Financial Services Segment results includes Interest income / Other Income pertaining to the respective segments. <BR> \r\n <BR> \r\n4. Segment assets and liabilities have been grossed up, with respect to advance from customers, bill discounting and other non-current assets whereas the same are netted off in the respective heads of Balance Sheet. <BR> \r\n",
+        "$": {
+          "contextRef": "OneD"
+        }
+      }
+    ],
+    "in-bse-fin:AdjustmentsForFinanceCosts": [
+      {
+        "_": "85510000000",
+        "$": {
+          "contextRef": "FourD",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      }
+    ],
+    "in-bse-fin:AdjustmentsForDecreaseIncreaseInInventories": [
+      {
+        "_": "-250370000000",
+        "$": {
+          "contextRef": "FourD",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      }
+    ],
+    "in-bse-fin:AdjustmentsForDecreaseIncreaseInTradeReceivablesCurrent": [
+      {
+        "_": "-3650000000",
+        "$": {
+          "contextRef": "FourD",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      }
+    ],
+    "in-bse-fin:AdjustmentsForDecreaseIncreaseInTradeReceivablesNoncurrent": [
+      {
+        "_": "0",
+        "$": {
+          "contextRef": "FourD",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      }
+    ],
+    "in-bse-fin:AdjustmentsForDecreaseIncreaseInOtherCurrentAssets": [
+      {
+        "_": "0",
+        "$": {
+          "contextRef": "FourD",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      }
+    ],
+    "in-bse-fin:AdjustmentsForDecreaseIncreaseInOtherNoncurrentAssets": [
+      {
+        "_": "0",
+        "$": {
+          "contextRef": "FourD",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      }
+    ],
+    "in-bse-fin:AdjustmentsForOtherFinancialAssetsNoncurrent": [
+      {
+        "_": "0",
+        "$": {
+          "contextRef": "FourD",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      }
+    ],
+    "in-bse-fin:AdjustmentsForOtherFinancialAssetsCurrent": [
+      {
+        "_": "0",
+        "$": {
+          "contextRef": "FourD",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      }
+    ],
+    "in-bse-fin:AdjustmentsForOtherBankBalances": [
+      {
+        "_": "0",
+        "$": {
+          "contextRef": "FourD",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      }
+    ],
+    "in-bse-fin:AdjustmentsForIncreaseDecreaseInTradePayablesCurrent": [
+      {
+        "_": "-96440000000",
+        "$": {
+          "contextRef": "FourD",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      }
+    ],
+    "in-bse-fin:AdjustmentsForIncreaseDecreaseInTradePayablesNoncurrent": [
+      {
+        "_": "0",
+        "$": {
+          "contextRef": "FourD",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      }
+    ],
+    "in-bse-fin:AdjustmentsForIncreaseDecreaseInOtherCurrentLiabilities": [
+      {
+        "_": "0",
+        "$": {
+          "contextRef": "FourD",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      }
+    ],
+    "in-bse-fin:AdjustmentsForIncreaseDecreaseInOtherNoncurrentLiabilities": [
+      {
+        "_": "0",
+        "$": {
+          "contextRef": "FourD",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      }
+    ],
+    "in-bse-fin:AdjustmentsForDepreciationAndAmortisationExpense": [
+      {
+        "_": "186760000000",
+        "$": {
+          "contextRef": "FourD",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      }
+    ],
+    "in-bse-fin:AdjustmentsForImpairmentLossReversalOfImpairmentLossRecognisedInProfitOrLoss": [
+      {
+        "_": "0",
+        "$": {
+          "contextRef": "FourD",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      }
+    ],
+    "in-bse-fin:AdjustmentsForProvisionsCurrent": [
+      {
+        "_": "0",
+        "$": {
+          "contextRef": "FourD",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      }
+    ],
+    "in-bse-fin:AdjustmentsForProvisionsNoncurrent": [
+      {
+        "_": "0",
+        "$": {
+          "contextRef": "FourD",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      }
+    ],
+    "in-bse-fin:AdjustmentsForOtherFinancialLiabilitiesCurrent": [
+      {
+        "_": "0",
+        "$": {
+          "contextRef": "FourD",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      }
+    ],
+    "in-bse-fin:AdjustmentsForOtherFinancialLiabilitiesNoncurrent": [
+      {
+        "_": "0",
+        "$": {
+          "contextRef": "FourD",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      }
+    ],
+    "in-bse-fin:AdjustmentsForUnrealisedForeignExchangeLossesGains": [
+      {
+        "_": "-6930000000",
+        "$": {
+          "contextRef": "FourD",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      }
+    ],
+    "in-bse-fin:AdjustmentsForDividendIncome": [
+      {
+        "_": "270000000",
+        "$": {
+          "contextRef": "FourD",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      }
+    ],
+    "in-bse-fin:AdjustmentsForInterestIncome": [
+      {
+        "_": "55580000000",
+        "$": {
+          "contextRef": "FourD",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      }
+    ],
+    "in-bse-fin:AdjustmentsForSharebasedPayments": [
+      {
+        "_": "0",
+        "$": {
+          "contextRef": "FourD",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      }
+    ],
+    "in-bse-fin:AdjustmentsForFairValueGainsLosses": [
+      {
+        "_": "0",
+        "$": {
+          "contextRef": "FourD",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      }
+    ],
+    "in-bse-fin:AdjustmentsForUndistributedProfitsOfAssociates": [
+      {
+        "_": "0",
+        "$": {
+          "contextRef": "FourD",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      }
+    ],
+    "in-bse-fin:OtherAdjustmentsForWhichCashEffectsAreInvestingOrFinancingCashFlow": [
+      {
+        "_": "8020000000",
+        "$": {
+          "contextRef": "FourD",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      }
+    ],
+    "in-bse-fin:OtherAdjustmentsToReconcileProfitLoss": [
+      {
+        "_": "0",
+        "$": {
+          "contextRef": "FourD",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      }
+    ],
+    "in-bse-fin:OtherAdjustmentsForNoncashItems": [
+      {
+        "_": "0",
+        "$": {
+          "contextRef": "FourD",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      }
+    ],
+    "in-bse-fin:ShareOfProfitAndLossFromPartnershipFirmOrAssociationOfPersonsOrLimitedLiabilityPartnerships": [
+      {
+        "_": "0",
+        "$": {
+          "contextRef": "FourD",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      }
+    ],
+    "in-bse-fin:AdjustmentsForReconcileProfitLoss": [
+      {
+        "_": "-132950000000",
+        "$": {
+          "contextRef": "FourD",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      }
+    ],
+    "in-bse-fin:CashFlowsFromUsedInOperations": [
+      {
+        "_": "344600000000",
+        "$": {
+          "contextRef": "FourD",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      }
+    ],
+    "in-bse-fin:DividendsReceivedClassifiedAsOperatingActivities": [
+      {
+        "_": "0",
+        "$": {
+          "contextRef": "FourD",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      }
+    ],
+    "in-bse-fin:InterestPaidClassifiedAsOperatingActivities": [
+      {
+        "_": "0",
+        "$": {
+          "contextRef": "FourD",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      }
+    ],
+    "in-bse-fin:InterestReceivedClassifiedAsOperatingActivities": [
+      {
+        "_": "0",
+        "$": {
+          "contextRef": "FourD",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      }
+    ],
+    "in-bse-fin:IncomeTaxesPaidRefundClassifiedAsOperatingActivities": [
+      {
+        "_": "44100000000",
+        "$": {
+          "contextRef": "FourD",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      }
+    ],
+    "in-bse-fin:OtherInflowsOutflowsOfCashClassifiedAsOperatingActivities": [
+      {
+        "_": "0",
+        "$": {
+          "contextRef": "FourD",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      }
+    ],
+    "in-bse-fin:CashFlowsFromUsedInOperatingActivities": [
+      {
+        "_": "300500000000",
+        "$": {
+          "contextRef": "FourD",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      }
+    ],
+    "in-bse-fin:CashFlowsFromLosingControlOfSubsidiariesOrOtherBusinessesClassifiedAsInvestingActivities": [
+      {
+        "_": "0",
+        "$": {
+          "contextRef": "FourD",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      }
+    ],
+    "in-bse-fin:CashFlowsUsedInObtainingControlOfSubsidiariesOrOtherBusinessesClassifiedAsInvestingActivities": [
+      {
+        "_": "0",
+        "$": {
+          "contextRef": "FourD",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      }
+    ],
+    "in-bse-fin:OtherCashReceiptsFromSalesOfEquityOrDebtInstrumentsOfOtherEntitiesClassifiedAsInvestingActivities": [
+      {
+        "_": "2447350000000",
+        "$": {
+          "contextRef": "FourD",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      }
+    ],
+    "in-bse-fin:OtherCashPaymentsToAcquireEquityOrDebtInstrumentsOfOtherEntitiesClassifiedAsInvestingActivities": [
+      {
+        "_": "2024330000000",
+        "$": {
+          "contextRef": "FourD",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      }
+    ],
+    "in-bse-fin:OtherCashReceiptsFromSalesOfInterestsInJointVenturesClassifiedAsInvestingActivities": [
+      {
+        "_": "0",
+        "$": {
+          "contextRef": "FourD",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      }
+    ],
+    "in-bse-fin:OtherCashPaymentsToAcquireInterestsInJointVenturesClassifiedAsInvestingActivities": [
+      {
+        "_": "0",
+        "$": {
+          "contextRef": "FourD",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      }
+    ],
+    "in-bse-fin:CashReceiptsFromShareOfProfitsOfPartnershipFirmOrAssociationOfPersonsOrLimitedLiabilityPartnerships": [
+      {
+        "_": "0",
+        "$": {
+          "contextRef": "FourD",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      }
+    ],
+    "in-bse-fin:CashPaymentForInvestmentInPartnershipFirmOrAssociationOfPersonsOrLimitedLiabilityPartnerships": [
+      {
+        "_": "0",
+        "$": {
+          "contextRef": "FourD",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      }
+    ],
+    "in-bse-fin:ProceedsFromSalesOfPropertyPlantAndEquipmentClassifiedAsInvestingActivities": [
+      {
+        "_": "2440000000",
+        "$": {
+          "contextRef": "FourD",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      }
+    ],
+    "in-bse-fin:PurchaseOfPropertyPlantAndEquipmentClassifiedAsInvestingActivities": [
+      {
+        "_": "682040000000",
+        "$": {
+          "contextRef": "FourD",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      }
+    ],
+    "in-bse-fin:ProceedsFromSalesOfInvestmentPropertyClassifiedAsInvestingActivities": [
+      {
+        "_": "0",
+        "$": {
+          "contextRef": "FourD",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      }
+    ],
+    "in-bse-fin:PurchaseOfInvestmentPropertyClassifiedAsInvestingActivities": [
+      {
+        "_": "0",
+        "$": {
+          "contextRef": "FourD",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      }
+    ],
+    "in-bse-fin:ProceedsFromSalesOfIntangibleAssetsClassifiedAsInvestingActivities": [
+      {
+        "_": "0",
+        "$": {
+          "contextRef": "FourD",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      }
+    ],
+    "in-bse-fin:PurchaseOfIntangibleAssetsClassifiedAsInvestingActivities": [
+      {
+        "_": "0",
+        "$": {
+          "contextRef": "FourD",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      }
+    ],
+    "in-bse-fin:ProceedsFromSalesOfIntangibleAssetsUnderDevelopment": [
+      {
+        "_": "0",
+        "$": {
+          "contextRef": "FourD",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      }
+    ],
+    "in-bse-fin:PurchaseOfIntangibleAssetsUnderDevelopment": [
+      {
+        "_": "0",
+        "$": {
+          "contextRef": "FourD",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      }
+    ],
+    "in-bse-fin:ProceedsFromSalesOfGoodwillClassifiedAsInvestingActivities": [
+      {
+        "_": "0",
+        "$": {
+          "contextRef": "FourD",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      }
+    ],
+    "in-bse-fin:PurchaseOfGoodwillClassifiedAsInvestingActivities": [
+      {
+        "_": "0",
+        "$": {
+          "contextRef": "FourD",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      }
+    ],
+    "in-bse-fin:ProceedsFromBiologicalAssetsOtherThanBearerPlantsClassifiedAsInvestingActivities": [
+      {
+        "_": "0",
+        "$": {
+          "contextRef": "FourD",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      }
+    ],
+    "in-bse-fin:PurchaseOfBiologicalAssetsOtherThanBearerPlantsClassifiedAsInvestingActivities": [
+      {
+        "_": "0",
+        "$": {
+          "contextRef": "FourD",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      }
+    ],
+    "in-bse-fin:ProceedsFromGovernmentGrantsClassifiedAsInvestingActivities": [
+      {
+        "_": "0",
+        "$": {
+          "contextRef": "FourD",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      }
+    ],
+    "in-bse-fin:ProceedsFromSalesOfOtherLongTermAssetsClassifiedAsInvestingActivities": [
+      {
+        "_": "0",
+        "$": {
+          "contextRef": "FourD",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      }
+    ],
+    "in-bse-fin:PurchaseOfOtherLongTermAssetsClassifiedAsInvestingActivities": [
+      {
+        "_": "0",
+        "$": {
+          "contextRef": "FourD",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      }
+    ],
+    "in-bse-fin:CashAdvancesAndLoansMadeToOtherPartiesClassifiedAsInvestingActivities": [
+      {
+        "_": "0",
+        "$": {
+          "contextRef": "FourD",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      }
+    ],
+    "in-bse-fin:CashReceiptsFromRepaymentOfAdvancesAndLoansMadeToOtherPartiesClassifiedAsInvestingActivities": [
+      {
+        "_": "0",
+        "$": {
+          "contextRef": "FourD",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      }
+    ],
+    "in-bse-fin:CashPaymentsForFutureContractsForwardContractsOptionContractsAndSwapContractsClassifiedAsInvestingActivities": [
+      {
+        "_": "0",
+        "$": {
+          "contextRef": "FourD",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      }
+    ],
+    "in-bse-fin:CashReceiptsFromFutureContractsForwardContractsOptionContractsAndSwapContractsClassifiedAsInvestingActivities": [
+      {
+        "_": "0",
+        "$": {
+          "contextRef": "FourD",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      }
+    ],
+    "in-bse-fin:DividendsReceivedClassifiedAsInvestingActivities": [
+      {
+        "_": "20000000",
+        "$": {
+          "contextRef": "FourD",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      }
+    ],
+    "in-bse-fin:InterestReceivedClassifiedAsInvestingActivities": [
+      {
+        "_": "32310000000",
+        "$": {
+          "contextRef": "FourD",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      }
+    ],
+    "in-bse-fin:IncomeTaxesPaidRefundClassifiedAsInvestingActivities": [
+      {
+        "_": "0",
+        "$": {
+          "contextRef": "FourD",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      }
+    ],
+    "in-bse-fin:OtherInflowsOutflowsOfCashClassifiedAsInvestingActivities": [
+      {
+        "_": "0",
+        "$": {
+          "contextRef": "FourD",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      }
+    ],
+    "in-bse-fin:CashFlowsFromUsedInInvestingActivities": [
+      {
+        "_": "-224250000000",
+        "$": {
+          "contextRef": "FourD",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      }
+    ],
+    "in-bse-fin:ProceedsFromChangesInOwnershipInterestsInSubsidiaries": [
+      {
+        "_": "-1270000000",
+        "$": {
+          "contextRef": "FourD",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      }
+    ],
+    "in-bse-fin:PaymentsFromChangesInOwnershipInterestsInSubsidiaries": [
+      {
+        "_": "0",
+        "$": {
+          "contextRef": "FourD",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      }
+    ],
+    "in-bse-fin:ProceedsFromIssuingSharesClassifiedAsFinancingActivities": [
+      {
+        "_": "310000000",
+        "$": {
+          "contextRef": "FourD",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      }
+    ],
+    "in-bse-fin:ProceedsFromIssuingOtherEquityInstruments": [
+      {
+        "_": "0",
+        "$": {
+          "contextRef": "FourD",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      }
+    ],
+    "in-bse-fin:PaymentsToAcquireOrRedeemEntitysShares": [
+      {
+        "_": "0",
+        "$": {
+          "contextRef": "FourD",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      }
+    ],
+    "in-bse-fin:PaymentsOfOtherEquityInstruments": [
+      {
+        "_": "0",
+        "$": {
+          "contextRef": "FourD",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      }
+    ],
+    "in-bse-fin:ProceedsFromExerciseOfStockOptions": [
+      {
+        "_": "0",
+        "$": {
+          "contextRef": "FourD",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      }
+    ],
+    "in-bse-fin:ProceedsFromIssuingDebenturesNotesBondsEtc": [
+      {
+        "_": "0",
+        "$": {
+          "contextRef": "FourD",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      }
+    ],
+    "in-bse-fin:ProceedsFromBorrowingsClassifiedAsFinancingActivities": [
+      {
+        "_": "75880000000",
+        "$": {
+          "contextRef": "FourD",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      }
+    ],
+    "in-bse-fin:RepaymentsOfBorrowingsClassifiedAsFinancingActivities": [
+      {
+        "_": "-142090000000",
+        "$": {
+          "contextRef": "FourD",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      }
+    ],
+    "in-bse-fin:PaymentsOfFinanceLeaseLiabilitiesClassifiedAsFinancingActivities": [
+      {
+        "_": "0",
+        "$": {
+          "contextRef": "FourD",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      }
+    ],
+    "in-bse-fin:PaymentsOfLeaseLiabilitiesClassifiedAsFinancingActivities": [
+      {
+        "_": "29290000000",
+        "$": {
+          "contextRef": "FourD",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      }
+    ],
+    "in-bse-fin:DividendsPaidClassifiedAsFinancingActivities": [
+      {
+        "_": "50830000000",
+        "$": {
+          "contextRef": "FourD",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      }
+    ],
+    "in-bse-fin:InterestPaidClassifiedAsFinancingActivities": [
+      {
+        "_": "93580000000",
+        "$": {
+          "contextRef": "FourD",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      }
+    ],
+    "in-bse-fin:IncomeTaxesPaidRefundClassifiedAsFinancingActivities": [
+      {
+        "_": "0",
+        "$": {
+          "contextRef": "FourD",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      }
+    ],
+    "in-bse-fin:OtherInflowsOutflowsOfCashClassifiedAsFinancingActivities": [
+      {
+        "_": "0",
+        "$": {
+          "contextRef": "FourD",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      }
+    ],
+    "in-bse-fin:CashFlowsFromUsedInFinancingActivities": [
+      {
+        "_": "43310000000",
+        "$": {
+          "contextRef": "FourD",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      }
+    ],
+    "in-bse-fin:IncreaseDecreaseInCashAndCashEquivalentsBeforeEffectOfExchangeRateChanges": [
+      {
+        "_": "119560000000",
+        "$": {
+          "contextRef": "FourD",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      }
+    ],
+    "in-bse-fin:EffectOfExchangeRateChangesOnCashAndCashEquivalents": [
+      {
+        "_": "0",
+        "$": {
+          "contextRef": "FourD",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      }
+    ],
+    "in-bse-fin:IncreaseDecreaseInCashAndCashEquivalents": [
+      {
+        "_": "119560000000",
+        "$": {
+          "contextRef": "FourD",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      }
+    ],
+    "in-bse-fin:CashAndCashEquivalentsCashFlowStatement": [
+      {
+        "_": "363020000000",
+        "$": {
+          "contextRef": "PY_I",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      },
+      {
+        "_": "482580000000",
+        "$": {
+          "contextRef": "OneI",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      }
+    ],
+    "in-bse-fin:DescriptionOfItemThatWillNotBeReclassifiedToProfitAndLoss": [
+      {
+        "_": "Items that will not be reclassified to Profit or Loss",
+        "$": {
+          "contextRef": "D_ItemsThatWillNotBeReclassifiedToProfitAndLoss11"
+        }
+      },
+      {
+        "_": "Items that will not be reclassified to Profit or Loss",
+        "$": {
+          "contextRef": "D_ItemsThatWillNotBeReclassifiedToProfitAndLoss41"
+        }
+      }
+    ],
+    "in-bse-fin:AmountOfItemThatWillNotBeReclassifiedToProfitAndLoss": [
+      {
+        "_": "-81270000000",
+        "$": {
+          "contextRef": "D_ItemsThatWillNotBeReclassifiedToProfitAndLoss11",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      },
+      {
+        "_": "-81270000000",
+        "$": {
+          "contextRef": "OneD",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      },
+      {
+        "_": "-102480000000",
+        "$": {
+          "contextRef": "D_ItemsThatWillNotBeReclassifiedToProfitAndLoss41",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      },
+      {
+        "_": "-102480000000",
+        "$": {
+          "contextRef": "FourD",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      }
+    ],
+    "in-bse-fin:IncomeTaxRelatingToItmesThatWillNotBeReclassifiedToProfitOrLoss": [
+      {
+        "_": "-9230000000",
+        "$": {
+          "contextRef": "OneD",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      },
+      {
+        "_": "-11690000000",
+        "$": {
+          "contextRef": "FourD",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      }
+    ],
+    "in-bse-fin:DescriptionOfItemThatWillBeReclassifiedToProfitAndLoss": [
+      {
+        "_": "Items that will be reclassified to Profit or Loss",
+        "$": {
+          "contextRef": "D_ItemsThatWillBeReclassifiedToProfitAndLoss11"
+        }
+      },
+      {
+        "_": "Items that will be reclassified to Profit or Loss",
+        "$": {
+          "contextRef": "D_ItemsThatWillBeReclassifiedToProfitAndLoss41"
+        }
+      }
+    ],
+    "in-bse-fin:AmountOfItemThatWillBeReclassifiedToProfitAndLoss": [
+      {
+        "_": "-27820000000",
+        "$": {
+          "contextRef": "D_ItemsThatWillBeReclassifiedToProfitAndLoss11",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      },
+      {
+        "_": "-27820000000",
+        "$": {
+          "contextRef": "OneD",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      },
+      {
+        "_": "-85930000000",
+        "$": {
+          "contextRef": "D_ItemsThatWillBeReclassifiedToProfitAndLoss41",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      },
+      {
+        "_": "-85930000000",
+        "$": {
+          "contextRef": "FourD",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      }
+    ],
+    "in-bse-fin:IncomeTaxRelatingToItmesThatWillBeReclassifiedToProfitOrLoss": [
+      {
+        "_": "-4280000000",
+        "$": {
+          "contextRef": "OneD",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      },
+      {
+        "_": "-16000000000",
+        "$": {
+          "contextRef": "FourD",
+          "unitRef": "INR",
+          "decimals": "-7"
+        }
+      }
+    ]
+  }
+}
