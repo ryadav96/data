@@ -1,0 +1,26 @@
+{
+    "match": {
+        "mrktCapf": {
+            "g": 0,
+            "l": 17458.778661155
+        },
+        "apef": {
+            "g": -465.49,
+            "l": 1114.08
+        },
+        "5yCagrPct": {
+            "g": 68.49264,
+            "l": 381.3
+        },
+        "qIncPbtK": {
+            "g": -7189.2003234,
+            "l": 20772.47
+        }
+    },
+    "sortBy": "mrktCapf",
+    "sortOrder": -1,
+    "project": ["subindustry", "mrktCapf", "lastPrice", "apef", "5yCagrPct", "pr1d", "faceValue", "12mEpsg", "3YdivGwth", "rvng", "estrvng", "estAvg", "epsg", "epsGwth", "ecfog", "ebitg", "earnings", "cfotr", "cfog", "5YrevChg", "qIncTrevK", "qIncPbtK", "qIncPbiK", "qIncOpeK", "qIncNincK", "qIncEpsK", "qIncEbiK", "incTrev", "incToi", "incSga", "incRaw", "incPyr", "incPfc", "incPbt", "trackErr", "expenseRatio", "valr", "ptir", "prmr", "fundamental", "erqr", "strown3", "strown", "retailHolding", "promShrPled", "nShareholders", "instown3", "instown", "insiderCml6M", "insiderCml3M", "insiderCml1M", "forInstHldng6M", "insHolding", "forInstHldng3M", "forInstHldng", "domInstHldng6M", "domInstHldng3M", "domInstHldng", "chPromHldng6M", "bulkCml6M", "chMutHldng6M", "bulkCml3M", "bulkCml1M", "upside", "totalAnalysts", "pctSelReco", "pctHldReco", "nBreco", "breco", "cafTcdp", "cafNcic", "cafFcf", "cafCiwc", "cafCfoa", "cafCfia", "cafCffa", "cafCexp", "bookValue", "balTrec", "balTotl", "balTota", "balTltd", "balTinv", "psfs", "psf", "psPremSi", "ps", "priceCfoR", "priceBySales", "pef", "ped", "pePremSi", "pbr", "pbd", "pbPremSi", "lcpCafFcf", "indpe", "indpb", "inddy", "evebitd", "evebit", "evCafFcf", "evByRev", "evByIc", "ev", "divSec", "dyPremSs", "divDps", "wcTurnR", "qcur", "netIncByLbl", "ldbtEqt", "invTurnR", "erngPwrR", "dbtEqt", "daysSalesOstndng", "daysPayOstndng", "daysOfInvOstndng", "ccnc", "asstTurnR", "aqui", "aint", "rtnAsts", "roe", "roce", "cafCfoaMgn", "opmg", "pftMrg", "balCogs", "aroi", "aopm", "5YrtnAsts", "5Yroe", "5YpftMrg", "5YcafCfoaMgn", "5Yaroi", "rolc", "putcall", "phstr", "oppoi", "ftvol", "opcoi", "ftoi", "ftls", "ftcp", "ftbas", "fairsp", "fair", "csprd", "chstr", "ccrp", "1Wvol", "1Wpoi", "1Wpeoi", "1Wfoi", "1Wcoi", "1Wceoi", "1Dvol", "1Dpeoi", "1Dfoi", "1Dcoi", "1Dceoi", "1DPoi", "vol3mAvg", "vol1wChPct", "vol1mAvg", "vol1dChPct", "pr1wN", "pr1w", "acVol", "6mpctN", "52wpct", "52wld", "52whd", "4wpctN", "4wpct", "26wpct", "12mpctN", "superTrend", "stochasticK", "stochasticD", "sma50d", "sma200d", "sma10d", "sma100d", "priceUBB", "relVol", "priceLBB", "prAvMonthEVA", "percentChangeObv", "percentChangeADL", "parabolSAR", "pab1Mma", "pab12Mma", "maxDrawdown", "ema50d", "ema200d", "ema10d", "ema100d", "beta", "3Ywsh", "2mac", "3Ywal", "1mac", "14ersi", "14dRsi", "14adx", "12mVolN", "12mVol"],
+    "offset": 0,
+    "count": 20,
+    "sids": []
+}
